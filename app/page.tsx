@@ -10,11 +10,14 @@ import {Sheet,SheetContent,SheetTitle,SheetDescription} from '@/components/ui/sh
 import {Combobox,ComboboxInput,ComboboxContent,ComboboxList,ComboboxItem,ComboboxEmpty} from '@/components/ui/combobox';
 import AnatomyScene from './scene';
 import FidelityLab from './fidelity-lab';
+import KhronosAtlas from './khronos/khronos-atlas';
 import {DEFAULT_VISIBLE,SYSTEMS,EXPLANATIONS,explanation,type Atlas,type Concept,type SceneState,type SystemId,type View} from './anatomy';
 const initial:SceneState={explode:0,visible:DEFAULT_VISIBLE,selected:[],isolate:false,view:'three-quarter',rotate:false,reset:0};
 export default function Home(){
  const detailTitle=useRef<HTMLHeadingElement>(null);
  const [labOpen,setLabOpen]=useState(false);
+ const [uiMode,setUiMode]=useState<'khronos'|'classic'>(()=>typeof location!=='undefined'&&location.hash==='#classic'?'classic':'khronos');
+ const switchUi=(mode:'khronos'|'classic')=>{history.replaceState(null,'',mode==='classic'?'#classic':location.pathname+location.search);setProgress(0);setError('');setUiMode(mode);};
  const [atlas,setAtlas]=useState<Atlas|null>(null),[state,setState]=useState(initial),[progress,setProgress]=useState(0),[error,setError]=useState(''),[panel,setPanel]=useState<'layers'|'search'|null>(null),[details,setDetails]=useState(false),[about,setAbout]=useState(false),[query,setQuery]=useState(''),[chosen,setChosen]=useState<Concept|null>(null);
  useEffect(()=>{const abort=new AbortController();setProgress(0);setError('');setAtlas(null);setChosen(null);setDetails(false);setState({...initial,visible:DEFAULT_VISIBLE});fetch('/models/atlas.json',{signal:abort.signal}).then(r=>{if(!r.ok)throw new Error('The anatomy catalogue could not be loaded.');return r.json();}).then(data=>setAtlas(data as Atlas)).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>abort.abort();},[]);
  useEffect(()=>{const key=(e:KeyboardEvent)=>{if(e.key==='/'&&!(e.target instanceof HTMLInputElement)&&!(e.target instanceof HTMLTextAreaElement)){e.preventDefault();setPanel('search');setDetails(false);}};window.addEventListener('keydown',key);return()=>window.removeEventListener('keydown',key);},[]);
@@ -31,8 +34,10 @@ export default function Home(){
  const reset=()=>{setState(s=>({...initial,visible:DEFAULT_VISIBLE,reset:s.reset+1}));setChosen(null);setDetails(false);setPanel(null);};
  const openPanel=(next:'layers'|'search')=>{setDetails(false);setPanel(p=>p===next?null:next);};
  if(labOpen&&atlas)return <FidelityLab atlas={atlas} onExit={()=>{setProgress(0);setError('');setLabOpen(false);reset();}}/>;
+ if(uiMode==='khronos')return <KhronosAtlas atlas={atlas} loadError={error} onClassic={()=>switchUi('classic')} onLab={()=>setLabOpen(true)}/>;
  return <main className="studio">
   <Button className="lab-entry" disabled={!atlas} onClick={()=>setLabOpen(true)}>Reality / Fidelity Lab · W1</Button>
+  <Button className="khronos-entry" variant="outline" onClick={()=>switchUi('khronos')}>Khronos Atlas UI · W2A</Button>
   {atlas&&<AnatomyScene atlas={atlas} state={{...state,inspectorOpen:details&&selectedParts.length>0}} onSelect={choosePart} onProgress={n=>{setProgress(n);if(n===100)setError('');}} onError={setError}/>}
   <div className="vignette"/>
   <header className="identity"><div className="eyebrow"><span className="status-dot"/> INTERACTIVE ANATOMY</div><h1>Human Atlas<Badge variant="outline" className="edition">3D</Badge></h1><div className="identity-meta">{atlas?atlas.parts.length.toLocaleString():'2,234'} modeled pieces <span>·</span> BodyParts3D</div></header>
