@@ -22,7 +22,7 @@ export default function FidelityLab({atlas,onExit}:{atlas:Atlas;onExit:()=>void}
  const changeLab=(change:Partial<typeof lab>)=>update({lab:{...lab,...change}});
  useEffect(()=>{const el=host.current!;const handler=(event:Event)=>{const detail=(event as CustomEvent).detail;const url=URL.createObjectURL(detail.blob);urls.current.push(url);setCaptures(old=>[...old,{url,blob:detail.blob,metadata:detail.metadata,name:`${current.current}-${detail.metadata.state.lab.materialTest?'TEST':'BASELINE'}`}]);};el.addEventListener('lab-captured',handler);return()=>{el.removeEventListener('lab-captured',handler);urls.current.forEach(URL.revokeObjectURL);};},[]);
  const select=(ids:string[])=>update({selected:ids,isolate:false});
- return <main className="fidelity-lab font-sans" ref={host}>
+ return <main lang="ja" className="fidelity-lab font-sans" ref={host}>
   <header className="lab-header"><div><p>KHRONOS ANATOMY ATLAS / W1</p><h1>Reality / Fidelity Lab</h1><p>実形状の比較 · 設計審査用 · 未公開</p></div><Button variant="outline" onClick={onExit}>全身へ戻る</Button></header>
   <nav className="lab-tabs" aria-label="比較シーン">{scenes.map(name=><Button key={name} variant={scene===name?'default':'outline'} aria-pressed={scene===name} onClick={()=>setScene(name)}>{name}</Button>)}</nav>
   <div className="lab-workspace">

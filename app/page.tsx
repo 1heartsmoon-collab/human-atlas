@@ -30,7 +30,7 @@ export default function Home(){
  const toggle=(id:SystemId)=>{setDetails(false);setState(s=>({...s,selected:[],isolate:false,visible:s.visible.includes(id)?s.visible.filter(x=>x!==id):[...s.visible,id]}));};
  const reset=()=>{setState(s=>({...initial,visible:DEFAULT_VISIBLE,reset:s.reset+1}));setChosen(null);setDetails(false);setPanel(null);};
  const openPanel=(next:'layers'|'search')=>{setDetails(false);setPanel(p=>p===next?null:next);};
- if(labOpen&&atlas)return <FidelityLab atlas={atlas} onExit={()=>{setLabOpen(false);reset();}}/>;
+ if(labOpen&&atlas)return <FidelityLab atlas={atlas} onExit={()=>{setProgress(0);setError('');setLabOpen(false);reset();}}/>;
  return <main className="studio">
   <Button className="lab-entry" disabled={!atlas} onClick={()=>setLabOpen(true)}>Reality / Fidelity Lab · W1</Button>
   {atlas&&<AnatomyScene atlas={atlas} state={{...state,inspectorOpen:details&&selectedParts.length>0}} onSelect={choosePart} onProgress={n=>{setProgress(n);if(n===100)setError('');}} onError={setError}/>}
