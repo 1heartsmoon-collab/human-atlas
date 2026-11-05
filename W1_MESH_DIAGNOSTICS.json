@@ -1,0 +1,6353 @@
+{
+  "face": [
+    {
+      "name": "orbicularis oculi",
+      "group": "表情筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "orbicularis oris",
+      "group": "表情筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "zygomaticus major",
+      "group": "表情筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "zygomaticus minor",
+      "group": "表情筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "buccinator",
+      "group": "表情筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "frontalis",
+      "group": "表情筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "temporalis",
+      "group": "咀嚼筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "masseter",
+      "group": "咀嚼筋",
+      "conceptId": null,
+      "meshIds": [],
+      "declaredIds": [],
+      "status": "NOT_FOUND_IN_FIXED_MANIFEST"
+    },
+    {
+      "name": "platysma",
+      "group": "表情筋・頸部",
+      "conceptId": "FMA45738",
+      "declaredIds": [
+        "FJ1558",
+        "FJ1587"
+      ],
+      "meshIds": [
+        "FJ1558",
+        "FJ1587"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right platysma",
+      "group": "表情筋・頸部",
+      "conceptId": "FMA45739",
+      "declaredIds": [
+        "FJ1587"
+      ],
+      "meshIds": [
+        "FJ1587"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left platysma",
+      "group": "表情筋・頸部",
+      "conceptId": "FMA45740",
+      "declaredIds": [
+        "FJ1558"
+      ],
+      "meshIds": [
+        "FJ1558"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "levator palpebrae superioris",
+      "group": "眼瞼挙筋（表情筋ではない）",
+      "conceptId": "FMA49041",
+      "declaredIds": [
+        "FJ1306",
+        "FJ1357"
+      ],
+      "meshIds": [
+        "FJ1306",
+        "FJ1357"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right levator palpebrae superioris",
+      "group": "眼瞼挙筋（表情筋ではない）",
+      "conceptId": "FMA49048",
+      "declaredIds": [
+        "FJ1357"
+      ],
+      "meshIds": [
+        "FJ1357"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left levator palpebrae superioris",
+      "group": "眼瞼挙筋（表情筋ではない）",
+      "conceptId": "FMA49049",
+      "declaredIds": [
+        "FJ1306"
+      ],
+      "meshIds": [
+        "FJ1306"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "tendon of levator palpebrae superioris",
+      "group": "眼瞼挙筋（表情筋ではない）",
+      "conceptId": "FMA54158",
+      "declaredIds": [
+        "FJ1343"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "tendon of right levator palpebrae superioris",
+      "group": "眼瞼挙筋（表情筋ではない）",
+      "conceptId": "FMA54159",
+      "declaredIds": [
+        "FJ1343"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "inferior oblique part of longus colli",
+      "group": "眼球運動筋",
+      "conceptId": "FMA46281",
+      "declaredIds": [
+        "FJ1557"
+      ],
+      "meshIds": [
+        "FJ1557"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "inferior oblique part of left longus colli",
+      "group": "眼球運動筋",
+      "conceptId": "FMA46288",
+      "declaredIds": [
+        "FJ1557"
+      ],
+      "meshIds": [
+        "FJ1557"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "inferior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49040",
+      "declaredIds": [
+        "FJ1294",
+        "FJ1345"
+      ],
+      "meshIds": [
+        "FJ1294",
+        "FJ1345"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right inferior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49050",
+      "declaredIds": [
+        "FJ1345"
+      ],
+      "meshIds": [
+        "FJ1345"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left inferior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49051",
+      "declaredIds": [
+        "FJ1294"
+      ],
+      "meshIds": [
+        "FJ1294"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "superior oblique part of longus colli",
+      "group": "眼球運動筋",
+      "conceptId": "FMA46280",
+      "declaredIds": [
+        "FJ1600"
+      ],
+      "meshIds": [
+        "FJ1600"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "superior oblique part of left longus colli",
+      "group": "眼球運動筋",
+      "conceptId": "FMA46284",
+      "declaredIds": [
+        "FJ1600"
+      ],
+      "meshIds": [
+        "FJ1600"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "superior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49039",
+      "declaredIds": [
+        "FJ1322",
+        "FJ1373"
+      ],
+      "meshIds": [
+        "FJ1322",
+        "FJ1373"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right superior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49052",
+      "declaredIds": [
+        "FJ1373"
+      ],
+      "meshIds": [
+        "FJ1373"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left superior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49053",
+      "declaredIds": [
+        "FJ1322"
+      ],
+      "meshIds": [
+        "FJ1322"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "trochlea of superior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49065",
+      "declaredIds": [
+        "FJ1329",
+        "FJ1380"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "trochlea of right superior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49067",
+      "declaredIds": [
+        "FJ1380"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "trochlea of left superior oblique",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49068",
+      "declaredIds": [
+        "FJ1329"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "lateral rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49038",
+      "declaredIds": [
+        "FJ1304",
+        "FJ1355"
+      ],
+      "meshIds": [
+        "FJ1304",
+        "FJ1355"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right lateral rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49054",
+      "declaredIds": [
+        "FJ1355"
+      ],
+      "meshIds": [
+        "FJ1355"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left lateral rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49055",
+      "declaredIds": [
+        "FJ1304"
+      ],
+      "meshIds": [
+        "FJ1304"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "check ligament of lateral rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49143",
+      "declaredIds": [
+        "FJ1284",
+        "FJ1334"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "check ligament of right lateral rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49144",
+      "declaredIds": [
+        "FJ1334"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "check ligament of left lateral rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49145",
+      "declaredIds": [
+        "FJ1284"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "medial rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49037",
+      "declaredIds": [
+        "FJ1308",
+        "FJ1359"
+      ],
+      "meshIds": [
+        "FJ1308",
+        "FJ1359"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right medial rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49056",
+      "declaredIds": [
+        "FJ1359"
+      ],
+      "meshIds": [
+        "FJ1359"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left medial rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49057",
+      "declaredIds": [
+        "FJ1308"
+      ],
+      "meshIds": [
+        "FJ1308"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "check ligament of medial rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49146",
+      "declaredIds": [
+        "FJ1292",
+        "FJ1335"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "check ligament of right medial rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49147",
+      "declaredIds": [
+        "FJ1335"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "check ligament of left medial rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49148",
+      "declaredIds": [
+        "FJ1292"
+      ],
+      "meshIds": [],
+      "status": "MESH_MISSING"
+    },
+    {
+      "name": "superior rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49035",
+      "declaredIds": [
+        "FJ1323",
+        "FJ1374"
+      ],
+      "meshIds": [
+        "FJ1323",
+        "FJ1374"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right superior rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49044",
+      "declaredIds": [
+        "FJ1374"
+      ],
+      "meshIds": [
+        "FJ1374"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left superior rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49045",
+      "declaredIds": [
+        "FJ1323"
+      ],
+      "meshIds": [
+        "FJ1323"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "inferior rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49036",
+      "declaredIds": [
+        "FJ1295",
+        "FJ1346"
+      ],
+      "meshIds": [
+        "FJ1295",
+        "FJ1346"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right inferior rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49046",
+      "declaredIds": [
+        "FJ1346"
+      ],
+      "meshIds": [
+        "FJ1346"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left inferior rectus",
+      "group": "眼球運動筋",
+      "conceptId": "FMA49047",
+      "declaredIds": [
+        "FJ1295"
+      ],
+      "meshIds": [
+        "FJ1295"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    }
+  ],
+  "viscera": [
+    {
+      "name": "right lung",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7309",
+      "declaredIds": [
+        "FJ2041",
+        "FJ2044",
+        "FJ2449",
+        "FJ2451",
+        "FJ2452",
+        "FJ2453",
+        "FJ2454",
+        "FJ2455",
+        "FJ2456",
+        "FJ2457",
+        "FJ2458",
+        "FJ2459",
+        "FJ2470",
+        "FJ2481",
+        "FJ2486",
+        "FJ2487",
+        "FJ2488",
+        "FJ2489",
+        "FJ2490",
+        "FJ2491",
+        "FJ2492",
+        "FJ2493",
+        "FJ2494",
+        "FJ2495",
+        "FJ2496",
+        "FJ2497",
+        "FJ2498",
+        "FJ2499",
+        "FJ2500",
+        "FJ2501",
+        "FJ2502",
+        "FJ2503",
+        "FJ2504",
+        "FJ2505",
+        "FJ2506",
+        "FJ2507",
+        "FJ2508",
+        "FJ2509",
+        "FJ2510",
+        "FJ2511",
+        "FJ2512",
+        "FJ2513",
+        "FJ2514",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519",
+        "FJ2520",
+        "FJ2521",
+        "FJ2522",
+        "FJ2523",
+        "FJ2524",
+        "FJ2525",
+        "FJ2526",
+        "FJ2967",
+        "FJ2968",
+        "FJ2969",
+        "FJ2970",
+        "FJ2971",
+        "FJ2972",
+        "FJ2973",
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2978",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981",
+        "FJ2982",
+        "FJ2983",
+        "FJ2984",
+        "FJ2985",
+        "FJ2986",
+        "FJ2987",
+        "FJ2988",
+        "FJ2989",
+        "FJ2990",
+        "FJ2991",
+        "FJ2992",
+        "FJ2993",
+        "FJ2994",
+        "FJ2995",
+        "FJ2996",
+        "FJ2997",
+        "FJ2998",
+        "FJ2999",
+        "FJ3000",
+        "FJ3001",
+        "FJ3002",
+        "FJ3003",
+        "FJ3004",
+        "FJ3005",
+        "FJ3006",
+        "FJ3007",
+        "FJ3008",
+        "FJ3009",
+        "FJ3010",
+        "FJ3011",
+        "FJ3012",
+        "FJ3013",
+        "FJ3014",
+        "FJ3015",
+        "FJ3016",
+        "FJ3017",
+        "FJ3018",
+        "FJ3021",
+        "FJ3022",
+        "FJ3023",
+        "FJ3024",
+        "FJ3025",
+        "FJ3026",
+        "FJ3027",
+        "FJ3028",
+        "FJ3029",
+        "FJ3030",
+        "FJ3031",
+        "FJ3032",
+        "FJ3033",
+        "FJ3034",
+        "FJ3035",
+        "FJ3036",
+        "FJ3037",
+        "FJ3038",
+        "FJ3039",
+        "FJ3041",
+        "FJ3042",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3049",
+        "FJ3050",
+        "FJ3051",
+        "FJ3052",
+        "FJ3053",
+        "FJ3054",
+        "FJ3055",
+        "FJ3056",
+        "FJ3057",
+        "FJ3058",
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062",
+        "FJ3063",
+        "FJ3064",
+        "FJ3065",
+        "FJ3066",
+        "FJ3067",
+        "FJ3068",
+        "FJ3069",
+        "FJ3070"
+      ],
+      "meshIds": [
+        "FJ2041",
+        "FJ2044",
+        "FJ2449",
+        "FJ2451",
+        "FJ2452",
+        "FJ2453",
+        "FJ2454",
+        "FJ2455",
+        "FJ2456",
+        "FJ2457",
+        "FJ2458",
+        "FJ2459",
+        "FJ2470",
+        "FJ2481",
+        "FJ2486",
+        "FJ2487",
+        "FJ2488",
+        "FJ2489",
+        "FJ2490",
+        "FJ2491",
+        "FJ2492",
+        "FJ2493",
+        "FJ2494",
+        "FJ2495",
+        "FJ2496",
+        "FJ2497",
+        "FJ2498",
+        "FJ2499",
+        "FJ2500",
+        "FJ2501",
+        "FJ2502",
+        "FJ2503",
+        "FJ2504",
+        "FJ2505",
+        "FJ2506",
+        "FJ2507",
+        "FJ2508",
+        "FJ2509",
+        "FJ2510",
+        "FJ2511",
+        "FJ2512",
+        "FJ2513",
+        "FJ2514",
+        "FJ2515",
+        "FJ2516",
+        "FJ2517",
+        "FJ2518",
+        "FJ2519",
+        "FJ2520",
+        "FJ2521",
+        "FJ2522",
+        "FJ2523",
+        "FJ2524",
+        "FJ2525",
+        "FJ2526",
+        "FJ2967",
+        "FJ2968",
+        "FJ2969",
+        "FJ2970",
+        "FJ2971",
+        "FJ2972",
+        "FJ2973",
+        "FJ2974",
+        "FJ2975",
+        "FJ2976",
+        "FJ2977",
+        "FJ2978",
+        "FJ2979",
+        "FJ2980",
+        "FJ2981",
+        "FJ2982",
+        "FJ2983",
+        "FJ2984",
+        "FJ2985",
+        "FJ2986",
+        "FJ2987",
+        "FJ2988",
+        "FJ2989",
+        "FJ2990",
+        "FJ2991",
+        "FJ2992",
+        "FJ2993",
+        "FJ2994",
+        "FJ2995",
+        "FJ2996",
+        "FJ2997",
+        "FJ2998",
+        "FJ2999",
+        "FJ3000",
+        "FJ3001",
+        "FJ3002",
+        "FJ3003",
+        "FJ3004",
+        "FJ3005",
+        "FJ3006",
+        "FJ3007",
+        "FJ3008",
+        "FJ3009",
+        "FJ3010",
+        "FJ3011",
+        "FJ3012",
+        "FJ3013",
+        "FJ3014",
+        "FJ3015",
+        "FJ3016",
+        "FJ3017",
+        "FJ3018",
+        "FJ3021",
+        "FJ3022",
+        "FJ3023",
+        "FJ3024",
+        "FJ3025",
+        "FJ3026",
+        "FJ3027",
+        "FJ3028",
+        "FJ3029",
+        "FJ3030",
+        "FJ3031",
+        "FJ3032",
+        "FJ3033",
+        "FJ3034",
+        "FJ3035",
+        "FJ3036",
+        "FJ3037",
+        "FJ3038",
+        "FJ3039",
+        "FJ3041",
+        "FJ3042",
+        "FJ3043",
+        "FJ3044",
+        "FJ3045",
+        "FJ3046",
+        "FJ3047",
+        "FJ3048",
+        "FJ3049",
+        "FJ3050",
+        "FJ3051",
+        "FJ3052",
+        "FJ3053",
+        "FJ3054",
+        "FJ3055",
+        "FJ3056",
+        "FJ3057",
+        "FJ3058",
+        "FJ3059",
+        "FJ3060",
+        "FJ3061",
+        "FJ3062",
+        "FJ3063",
+        "FJ3064",
+        "FJ3065",
+        "FJ3066",
+        "FJ3067",
+        "FJ3068",
+        "FJ3069",
+        "FJ3070"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left lung",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7310",
+      "declaredIds": [
+        "FJ2441",
+        "FJ2442",
+        "FJ2443",
+        "FJ2444",
+        "FJ2445",
+        "FJ2446",
+        "FJ2447",
+        "FJ2448",
+        "FJ2460",
+        "FJ2461",
+        "FJ2462",
+        "FJ2463",
+        "FJ2464",
+        "FJ2465",
+        "FJ2466",
+        "FJ2467",
+        "FJ2468",
+        "FJ2469",
+        "FJ2471",
+        "FJ2472",
+        "FJ2473",
+        "FJ2474",
+        "FJ2475",
+        "FJ2476",
+        "FJ2477",
+        "FJ2478",
+        "FJ2479",
+        "FJ2480",
+        "FJ2482",
+        "FJ2483",
+        "FJ2484",
+        "FJ2485",
+        "FJ2527",
+        "FJ2528",
+        "FJ2529",
+        "FJ2530",
+        "FJ2531",
+        "FJ2532",
+        "FJ2533",
+        "FJ2534",
+        "FJ2535",
+        "FJ2536",
+        "FJ2537",
+        "FJ2538",
+        "FJ2540",
+        "FJ2881",
+        "FJ2882",
+        "FJ2883",
+        "FJ2884",
+        "FJ2885",
+        "FJ2886",
+        "FJ2887",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2892",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895",
+        "FJ2896",
+        "FJ2897",
+        "FJ2898",
+        "FJ2899",
+        "FJ2900",
+        "FJ2901",
+        "FJ2902",
+        "FJ2903",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910",
+        "FJ2911",
+        "FJ2912",
+        "FJ2913",
+        "FJ2914",
+        "FJ2915",
+        "FJ2916",
+        "FJ2917",
+        "FJ2918",
+        "FJ2919",
+        "FJ2920",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923",
+        "FJ2926",
+        "FJ2927",
+        "FJ2928",
+        "FJ2929",
+        "FJ2930",
+        "FJ2931",
+        "FJ2932",
+        "FJ2934",
+        "FJ2935",
+        "FJ2936",
+        "FJ2937",
+        "FJ2938",
+        "FJ2939",
+        "FJ2940",
+        "FJ2941",
+        "FJ2942",
+        "FJ2943",
+        "FJ2945",
+        "FJ2946",
+        "FJ2947",
+        "FJ2948",
+        "FJ2949",
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954",
+        "FJ2956",
+        "FJ2957",
+        "FJ2958",
+        "FJ2959",
+        "FJ2960",
+        "FJ2961",
+        "FJ2962",
+        "FJ2963",
+        "FJ2964",
+        "FJ2965"
+      ],
+      "meshIds": [
+        "FJ2441",
+        "FJ2442",
+        "FJ2443",
+        "FJ2444",
+        "FJ2445",
+        "FJ2446",
+        "FJ2447",
+        "FJ2448",
+        "FJ2460",
+        "FJ2461",
+        "FJ2462",
+        "FJ2463",
+        "FJ2464",
+        "FJ2465",
+        "FJ2466",
+        "FJ2467",
+        "FJ2468",
+        "FJ2469",
+        "FJ2471",
+        "FJ2472",
+        "FJ2473",
+        "FJ2474",
+        "FJ2475",
+        "FJ2476",
+        "FJ2477",
+        "FJ2478",
+        "FJ2479",
+        "FJ2480",
+        "FJ2482",
+        "FJ2483",
+        "FJ2484",
+        "FJ2485",
+        "FJ2527",
+        "FJ2528",
+        "FJ2529",
+        "FJ2530",
+        "FJ2531",
+        "FJ2532",
+        "FJ2533",
+        "FJ2534",
+        "FJ2535",
+        "FJ2536",
+        "FJ2537",
+        "FJ2538",
+        "FJ2540",
+        "FJ2881",
+        "FJ2882",
+        "FJ2883",
+        "FJ2884",
+        "FJ2885",
+        "FJ2886",
+        "FJ2887",
+        "FJ2888",
+        "FJ2889",
+        "FJ2890",
+        "FJ2891",
+        "FJ2892",
+        "FJ2893",
+        "FJ2894",
+        "FJ2895",
+        "FJ2896",
+        "FJ2897",
+        "FJ2898",
+        "FJ2899",
+        "FJ2900",
+        "FJ2901",
+        "FJ2902",
+        "FJ2903",
+        "FJ2904",
+        "FJ2905",
+        "FJ2906",
+        "FJ2907",
+        "FJ2908",
+        "FJ2909",
+        "FJ2910",
+        "FJ2911",
+        "FJ2912",
+        "FJ2913",
+        "FJ2914",
+        "FJ2915",
+        "FJ2916",
+        "FJ2917",
+        "FJ2918",
+        "FJ2919",
+        "FJ2920",
+        "FJ2921",
+        "FJ2922",
+        "FJ2923",
+        "FJ2926",
+        "FJ2927",
+        "FJ2928",
+        "FJ2929",
+        "FJ2930",
+        "FJ2931",
+        "FJ2932",
+        "FJ2934",
+        "FJ2935",
+        "FJ2936",
+        "FJ2937",
+        "FJ2938",
+        "FJ2939",
+        "FJ2940",
+        "FJ2941",
+        "FJ2942",
+        "FJ2943",
+        "FJ2945",
+        "FJ2946",
+        "FJ2947",
+        "FJ2948",
+        "FJ2949",
+        "FJ2951",
+        "FJ2952",
+        "FJ2953",
+        "FJ2954",
+        "FJ2956",
+        "FJ2957",
+        "FJ2958",
+        "FJ2959",
+        "FJ2960",
+        "FJ2961",
+        "FJ2962",
+        "FJ2963",
+        "FJ2964",
+        "FJ2965"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "heart",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7088",
+      "declaredIds": [
+        "FJ2417",
+        "FJ2418",
+        "FJ2419",
+        "FJ2420",
+        "FJ2421",
+        "FJ2422",
+        "FJ2423",
+        "FJ2424",
+        "FJ2425",
+        "FJ2426",
+        "FJ2427",
+        "FJ2429",
+        "FJ2430",
+        "FJ2431",
+        "FJ2432",
+        "FJ2433",
+        "FJ2434",
+        "FJ2435",
+        "FJ2436",
+        "FJ2437",
+        "FJ2438",
+        "FJ2439",
+        "FJ2631",
+        "FJ2632",
+        "FJ2633",
+        "FJ2634",
+        "FJ2635",
+        "FJ2636",
+        "FJ2637",
+        "FJ2638",
+        "FJ2639",
+        "FJ2640",
+        "FJ2641",
+        "FJ2642",
+        "FJ2643",
+        "FJ2644",
+        "FJ2645",
+        "FJ2646",
+        "FJ2647",
+        "FJ2648",
+        "FJ2649",
+        "FJ2650",
+        "FJ2651",
+        "FJ2652",
+        "FJ2653",
+        "FJ2654",
+        "FJ2655",
+        "FJ2656",
+        "FJ2667",
+        "FJ2668",
+        "FJ2670",
+        "FJ2671",
+        "FJ2672",
+        "FJ2673",
+        "FJ2674",
+        "FJ2675",
+        "FJ2676",
+        "FJ2677",
+        "FJ2692",
+        "FJ2693",
+        "FJ2694",
+        "FJ2695",
+        "FJ2696",
+        "FJ2697",
+        "FJ2698",
+        "FJ2699",
+        "FJ2700",
+        "FJ2714",
+        "FJ2715",
+        "FJ2716",
+        "FJ2717",
+        "FJ2718",
+        "FJ2719",
+        "FJ2720",
+        "FJ2721",
+        "FJ2722",
+        "FJ2723",
+        "FJ2724",
+        "FJ2727",
+        "FJ2728",
+        "FJ2729",
+        "FJ2731",
+        "FJ2737"
+      ],
+      "meshIds": [
+        "FJ2417",
+        "FJ2418",
+        "FJ2419",
+        "FJ2420",
+        "FJ2421",
+        "FJ2422",
+        "FJ2423",
+        "FJ2424",
+        "FJ2425",
+        "FJ2426",
+        "FJ2427",
+        "FJ2429",
+        "FJ2430",
+        "FJ2431",
+        "FJ2432",
+        "FJ2433",
+        "FJ2434",
+        "FJ2435",
+        "FJ2436",
+        "FJ2437",
+        "FJ2438",
+        "FJ2439",
+        "FJ2631",
+        "FJ2632",
+        "FJ2633",
+        "FJ2634",
+        "FJ2635",
+        "FJ2636",
+        "FJ2637",
+        "FJ2638",
+        "FJ2639",
+        "FJ2640",
+        "FJ2641",
+        "FJ2642",
+        "FJ2643",
+        "FJ2644",
+        "FJ2645",
+        "FJ2646",
+        "FJ2647",
+        "FJ2648",
+        "FJ2649",
+        "FJ2650",
+        "FJ2651",
+        "FJ2652",
+        "FJ2653",
+        "FJ2654",
+        "FJ2655",
+        "FJ2656",
+        "FJ2667",
+        "FJ2668",
+        "FJ2670",
+        "FJ2671",
+        "FJ2672",
+        "FJ2673",
+        "FJ2674",
+        "FJ2675",
+        "FJ2676",
+        "FJ2677",
+        "FJ2692",
+        "FJ2693",
+        "FJ2694",
+        "FJ2695",
+        "FJ2696",
+        "FJ2697",
+        "FJ2698",
+        "FJ2699",
+        "FJ2700",
+        "FJ2714",
+        "FJ2715",
+        "FJ2716",
+        "FJ2717",
+        "FJ2718",
+        "FJ2719",
+        "FJ2720",
+        "FJ2721",
+        "FJ2722",
+        "FJ2723",
+        "FJ2724",
+        "FJ2727",
+        "FJ2728",
+        "FJ2729",
+        "FJ2731",
+        "FJ2737"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "liver",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7197",
+      "declaredIds": [
+        "FJ1883",
+        "FJ1893",
+        "FJ1913",
+        "FJ1914",
+        "FJ1916",
+        "FJ2386",
+        "FJ2404",
+        "FJ2405",
+        "FJ2409",
+        "FJ2415",
+        "FJ2416",
+        "FJ2816",
+        "FJ2818",
+        "FJ2819",
+        "FJ2820",
+        "FJ2821",
+        "FJ2822",
+        "FJ2823",
+        "FJ2824",
+        "FJ3071",
+        "FJ3072",
+        "FJ3073",
+        "FJ3074",
+        "FJ3075",
+        "FJ3076",
+        "FJ3077",
+        "FJ3081",
+        "FJ3083",
+        "FJ3086",
+        "FJ3088",
+        "FJ3089",
+        "FJ3090",
+        "FJ3091",
+        "FJ3092",
+        "FJ3093",
+        "FJ3095",
+        "FJ3096",
+        "FJ3102",
+        "FJ3103",
+        "FJ3104",
+        "FJ3105",
+        "FJ3106",
+        "FJ3107",
+        "FJ3108",
+        "FJ3109",
+        "FJ3110",
+        "FJ3111",
+        "FJ3112",
+        "FJ3113",
+        "FJ3114",
+        "FJ3115",
+        "FJ3116",
+        "FJ3117",
+        "FJ3122",
+        "FJ3123",
+        "FJ3124",
+        "FJ3125",
+        "FJ3126",
+        "FJ3127",
+        "FJ3128"
+      ],
+      "meshIds": [
+        "FJ1883",
+        "FJ1893",
+        "FJ1913",
+        "FJ1914",
+        "FJ1916",
+        "FJ2386",
+        "FJ2404",
+        "FJ2405",
+        "FJ2409",
+        "FJ2415",
+        "FJ2416",
+        "FJ2816",
+        "FJ2818",
+        "FJ2819",
+        "FJ2820",
+        "FJ2821",
+        "FJ2822",
+        "FJ2823",
+        "FJ2824",
+        "FJ3071",
+        "FJ3072",
+        "FJ3073",
+        "FJ3074",
+        "FJ3075",
+        "FJ3076",
+        "FJ3077",
+        "FJ3081",
+        "FJ3083",
+        "FJ3086",
+        "FJ3088",
+        "FJ3089",
+        "FJ3090",
+        "FJ3091",
+        "FJ3092",
+        "FJ3093",
+        "FJ3095",
+        "FJ3096",
+        "FJ3102",
+        "FJ3103",
+        "FJ3104",
+        "FJ3105",
+        "FJ3106",
+        "FJ3107",
+        "FJ3108",
+        "FJ3109",
+        "FJ3110",
+        "FJ3111",
+        "FJ3112",
+        "FJ3113",
+        "FJ3114",
+        "FJ3115",
+        "FJ3116",
+        "FJ3117",
+        "FJ3122",
+        "FJ3123",
+        "FJ3124",
+        "FJ3125",
+        "FJ3126",
+        "FJ3127",
+        "FJ3128"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "stomach",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7148",
+      "declaredIds": [
+        "FJ2564"
+      ],
+      "meshIds": [
+        "FJ2564"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "small intestine",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7200",
+      "declaredIds": [
+        "FJ2573",
+        "FJ2574",
+        "FJ2575",
+        "FJ2576",
+        "FJ2577",
+        "FJ2578",
+        "FJ2579",
+        "FJ2580",
+        "FJ2581",
+        "FJ2582",
+        "FJ2583",
+        "FJ2584",
+        "FJ2585",
+        "FJ2586",
+        "FJ2587",
+        "FJ2588",
+        "FJ2589",
+        "FJ2590",
+        "FJ2591",
+        "FJ2592",
+        "FJ2593",
+        "FJ2594",
+        "FJ2595",
+        "FJ2596",
+        "FJ2597",
+        "FJ2598",
+        "FJ2599",
+        "FJ2600",
+        "FJ2601",
+        "FJ2602",
+        "FJ2603",
+        "FJ2604",
+        "FJ2605",
+        "FJ2606",
+        "FJ2607",
+        "FJ2608",
+        "FJ2609",
+        "FJ2610",
+        "FJ2611",
+        "FJ2612",
+        "FJ2613",
+        "FJ2614",
+        "FJ2615",
+        "FJ2616",
+        "FJ2617",
+        "FJ2618",
+        "FJ2619",
+        "FJ2620",
+        "FJ2621",
+        "FJ2622",
+        "FJ2623",
+        "FJ2624",
+        "FJ2625",
+        "FJ2626",
+        "FJ2627",
+        "FJ2628"
+      ],
+      "meshIds": [
+        "FJ2573",
+        "FJ2574",
+        "FJ2575",
+        "FJ2576",
+        "FJ2577",
+        "FJ2578",
+        "FJ2579",
+        "FJ2580",
+        "FJ2581",
+        "FJ2582",
+        "FJ2583",
+        "FJ2584",
+        "FJ2585",
+        "FJ2586",
+        "FJ2587",
+        "FJ2588",
+        "FJ2589",
+        "FJ2590",
+        "FJ2591",
+        "FJ2592",
+        "FJ2593",
+        "FJ2594",
+        "FJ2595",
+        "FJ2596",
+        "FJ2597",
+        "FJ2598",
+        "FJ2599",
+        "FJ2600",
+        "FJ2601",
+        "FJ2602",
+        "FJ2603",
+        "FJ2604",
+        "FJ2605",
+        "FJ2606",
+        "FJ2607",
+        "FJ2608",
+        "FJ2609",
+        "FJ2610",
+        "FJ2611",
+        "FJ2612",
+        "FJ2613",
+        "FJ2614",
+        "FJ2615",
+        "FJ2616",
+        "FJ2617",
+        "FJ2618",
+        "FJ2619",
+        "FJ2620",
+        "FJ2621",
+        "FJ2622",
+        "FJ2623",
+        "FJ2624",
+        "FJ2625",
+        "FJ2626",
+        "FJ2627",
+        "FJ2628"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "large intestine",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7201",
+      "declaredIds": [
+        "FJ2566",
+        "FJ2567",
+        "FJ2568",
+        "FJ2569",
+        "FJ2570",
+        "FJ2571",
+        "FJ2572",
+        "FJ2599"
+      ],
+      "meshIds": [
+        "FJ2566",
+        "FJ2567",
+        "FJ2568",
+        "FJ2569",
+        "FJ2570",
+        "FJ2571",
+        "FJ2572",
+        "FJ2599"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right kidney",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7204",
+      "declaredIds": [
+        "FJ3147"
+      ],
+      "meshIds": [
+        "FJ3147"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left kidney",
+      "group": "内臓（関連血管等を含む概念）",
+      "conceptId": "FMA7205",
+      "declaredIds": [
+        "FJ3145"
+      ],
+      "meshIds": [
+        "FJ3145"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    }
+  ],
+  "deep": [
+    {
+      "name": "right serratus posterior inferior",
+      "group": "深部体幹",
+      "conceptId": "FMA13405",
+      "declaredIds": [
+        "FJ1541"
+      ],
+      "meshIds": [
+        "FJ1541"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left serratus posterior inferior",
+      "group": "深部体幹",
+      "conceptId": "FMA13406",
+      "declaredIds": [
+        "FJ1541M"
+      ],
+      "meshIds": [
+        "FJ1541M"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right psoas major",
+      "group": "深部体幹",
+      "conceptId": "FMA22342",
+      "declaredIds": [
+        "FJ1431"
+      ],
+      "meshIds": [
+        "FJ1431"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left psoas major",
+      "group": "深部体幹",
+      "conceptId": "FMA22343",
+      "declaredIds": [
+        "FJ1431M"
+      ],
+      "meshIds": [
+        "FJ1431M"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "diaphragm",
+      "group": "深部体幹",
+      "conceptId": "FMA13295",
+      "declaredIds": [
+        "FJ3131"
+      ],
+      "meshIds": [
+        "FJ3131"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "right serratus posterior superior",
+      "group": "深部体幹",
+      "conceptId": "FMA13403",
+      "declaredIds": [
+        "FJ1542"
+      ],
+      "meshIds": [
+        "FJ1542"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    },
+    {
+      "name": "left serratus posterior superior",
+      "group": "深部体幹",
+      "conceptId": "FMA13404",
+      "declaredIds": [
+        "FJ1542M"
+      ],
+      "meshIds": [
+        "FJ1542M"
+      ],
+      "status": "PRESENT_IN_MANIFEST"
+    }
+  ],
+  "skull": [
+    "FJ2772",
+    "FJ3199",
+    "FJ3200",
+    "FJ3201",
+    "FJ3269",
+    "FJ3272",
+    "FJ3273",
+    "FJ3274",
+    "FJ3281",
+    "FJ3287",
+    "FJ3289",
+    "FJ3309",
+    "FJ3375",
+    "FJ3378",
+    "FJ3379",
+    "FJ3380",
+    "FJ3386",
+    "FJ3392",
+    "FJ3394",
+    "FJ3395"
+  ],
+  "counts": {
+    "parts": 2234,
+    "concepts": 3432,
+    "chunks": 15
+  },
+  "systemParts": {
+    "digestive": 97,
+    "respiratory": 119,
+    "cardiac": 23,
+    "urinary": 6
+  },
+  "sourceCommit": "1c38bf35c254a891200d3cedecfd57abebe83d8d",
+  "meshMembers": [
+    {
+      "id": "FJ1294",
+      "conceptId": "FMA49051",
+      "name": "Left inferior oblique",
+      "system": "muscular",
+      "vertexCount": 469,
+      "indexCount": 2670,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1295",
+      "conceptId": "FMA49047",
+      "name": "Left inferior rectus",
+      "system": "muscular",
+      "vertexCount": 444,
+      "indexCount": 2346,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1304",
+      "conceptId": "FMA49055",
+      "name": "Left lateral rectus",
+      "system": "muscular",
+      "vertexCount": 407,
+      "indexCount": 2184,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1306",
+      "conceptId": "FMA49049",
+      "name": "Left levator palpebrae superioris",
+      "system": "muscular",
+      "vertexCount": 639,
+      "indexCount": 3288,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1308",
+      "conceptId": "FMA49057",
+      "name": "Left medial rectus",
+      "system": "muscular",
+      "vertexCount": 319,
+      "indexCount": 1698,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1322",
+      "conceptId": "FMA49053",
+      "name": "Left superior oblique",
+      "system": "muscular",
+      "vertexCount": 436,
+      "indexCount": 2376,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1323",
+      "conceptId": "FMA49045",
+      "name": "Left superior rectus",
+      "system": "muscular",
+      "vertexCount": 362,
+      "indexCount": 1866,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1345",
+      "conceptId": "FMA49050",
+      "name": "Right inferior oblique",
+      "system": "muscular",
+      "vertexCount": 507,
+      "indexCount": 2766,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1346",
+      "conceptId": "FMA49046",
+      "name": "Right inferior rectus",
+      "system": "muscular",
+      "vertexCount": 438,
+      "indexCount": 2334,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1355",
+      "conceptId": "FMA49054",
+      "name": "Right lateral rectus",
+      "system": "muscular",
+      "vertexCount": 398,
+      "indexCount": 2160,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1357",
+      "conceptId": "FMA49048",
+      "name": "Right levator palpebrae superioris",
+      "system": "muscular",
+      "vertexCount": 759,
+      "indexCount": 3618,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1359",
+      "conceptId": "FMA49056",
+      "name": "Right medial rectus",
+      "system": "muscular",
+      "vertexCount": 335,
+      "indexCount": 1680,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1373",
+      "conceptId": "FMA49052",
+      "name": "Right superior oblique",
+      "system": "muscular",
+      "vertexCount": 459,
+      "indexCount": 2436,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1374",
+      "conceptId": "FMA49044",
+      "name": "Right superior rectus",
+      "system": "muscular",
+      "vertexCount": 366,
+      "indexCount": 1854,
+      "chunk": 0
+    },
+    {
+      "id": "FJ1431",
+      "conceptId": "FMA22342",
+      "name": "Right psoas major",
+      "system": "muscular",
+      "vertexCount": 1401,
+      "indexCount": 4224,
+      "chunk": 1
+    },
+    {
+      "id": "FJ1431M",
+      "conceptId": "FMA22343",
+      "name": "Left psoas major",
+      "system": "muscular",
+      "vertexCount": 1378,
+      "indexCount": 4206,
+      "chunk": 1
+    },
+    {
+      "id": "FJ1541",
+      "conceptId": "FMA13405",
+      "name": "Right serratus posterior inferior",
+      "system": "muscular",
+      "vertexCount": 3285,
+      "indexCount": 11496,
+      "chunk": 4
+    },
+    {
+      "id": "FJ1541M",
+      "conceptId": "FMA13406",
+      "name": "Left serratus posterior inferior",
+      "system": "muscular",
+      "vertexCount": 3263,
+      "indexCount": 11490,
+      "chunk": 4
+    },
+    {
+      "id": "FJ1542",
+      "conceptId": "FMA13403",
+      "name": "Right serratus posterior superior",
+      "system": "muscular",
+      "vertexCount": 2778,
+      "indexCount": 9126,
+      "chunk": 4
+    },
+    {
+      "id": "FJ1542M",
+      "conceptId": "FMA13404",
+      "name": "Left serratus posterior superior",
+      "system": "muscular",
+      "vertexCount": 2765,
+      "indexCount": 9198,
+      "chunk": 4
+    },
+    {
+      "id": "FJ1557",
+      "conceptId": "FMA46288",
+      "name": "Inferior oblique part of left longus colli",
+      "system": "muscular",
+      "vertexCount": 335,
+      "indexCount": 1494,
+      "chunk": 5
+    },
+    {
+      "id": "FJ1558",
+      "conceptId": "FMA45740",
+      "name": "Left platysma",
+      "system": "muscular",
+      "vertexCount": 2097,
+      "indexCount": 10500,
+      "chunk": 5
+    },
+    {
+      "id": "FJ1587",
+      "conceptId": "FMA45739",
+      "name": "Right platysma",
+      "system": "muscular",
+      "vertexCount": 2504,
+      "indexCount": 11742,
+      "chunk": 5
+    },
+    {
+      "id": "FJ1600",
+      "conceptId": "FMA46284",
+      "name": "Superior oblique part of left longus colli",
+      "system": "muscular",
+      "vertexCount": 733,
+      "indexCount": 2850,
+      "chunk": 5
+    },
+    {
+      "id": "FJ1883",
+      "conceptId": "FMA71889",
+      "name": "Caudate lobe tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 234,
+      "indexCount": 1044,
+      "chunk": 7
+    },
+    {
+      "id": "FJ1893",
+      "conceptId": "FMA15415",
+      "name": "Left portal vein",
+      "system": "venous",
+      "vertexCount": 317,
+      "indexCount": 1410,
+      "chunk": 7
+    },
+    {
+      "id": "FJ1913",
+      "conceptId": "FMA15414",
+      "name": "Right portal vein",
+      "system": "venous",
+      "vertexCount": 584,
+      "indexCount": 2460,
+      "chunk": 7
+    },
+    {
+      "id": "FJ1914",
+      "conceptId": "FMA82706",
+      "name": "Caudate lobe branch of right portal vein",
+      "system": "venous",
+      "vertexCount": 177,
+      "indexCount": 930,
+      "chunk": 7
+    },
+    {
+      "id": "FJ1916",
+      "conceptId": "FMA70447",
+      "name": "Caudate lobe branch of right hepatic artery",
+      "system": "arterial",
+      "vertexCount": 209,
+      "indexCount": 1056,
+      "chunk": 7
+    },
+    {
+      "id": "FJ2041",
+      "conceptId": "FMA8620",
+      "name": "Right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 158,
+      "indexCount": 870,
+      "chunk": 7
+    },
+    {
+      "id": "FJ2044",
+      "conceptId": "FMA8620",
+      "name": "Right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 154,
+      "indexCount": 822,
+      "chunk": 7
+    },
+    {
+      "id": "FJ2386",
+      "conceptId": "FMA70447",
+      "name": "Caudate lobe branch of right hepatic artery",
+      "system": "arterial",
+      "vertexCount": 209,
+      "indexCount": 1056,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2404",
+      "conceptId": "FMA15415",
+      "name": "Left portal vein",
+      "system": "venous",
+      "vertexCount": 2428,
+      "indexCount": 7986,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2405",
+      "conceptId": "FMA15414",
+      "name": "Right portal vein",
+      "system": "venous",
+      "vertexCount": 1497,
+      "indexCount": 4374,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2409",
+      "conceptId": "FMA15745",
+      "name": "Hepatovenous segment VII",
+      "system": "venous",
+      "vertexCount": 1454,
+      "indexCount": 5628,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2415",
+      "conceptId": "FMA14339",
+      "name": "Left hepatic vein",
+      "system": "venous",
+      "vertexCount": 527,
+      "indexCount": 2652,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2416",
+      "conceptId": "FMA14338",
+      "name": "Right hepatic vein",
+      "system": "venous",
+      "vertexCount": 1558,
+      "indexCount": 5808,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2417",
+      "conceptId": "FMA7247",
+      "name": "Left anterior cusp of pulmonary valve",
+      "system": "cardiac",
+      "vertexCount": 699,
+      "indexCount": 3768,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2418",
+      "conceptId": "FMA7265",
+      "name": "Anterolateral head of lateral papillary muscle of left ventricle",
+      "system": "muscular",
+      "vertexCount": 511,
+      "indexCount": 2328,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2419",
+      "conceptId": "FMA7260",
+      "name": "Anterior papillary muscle of right ventricle",
+      "system": "muscular",
+      "vertexCount": 548,
+      "indexCount": 2460,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2420",
+      "conceptId": "FMA7242",
+      "name": "Anterior leaflet of mitral valve",
+      "system": "cardiac",
+      "vertexCount": 1356,
+      "indexCount": 6966,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2421",
+      "conceptId": "FMA7238",
+      "name": "Anterior leaflet of tricuspid valve",
+      "system": "cardiac",
+      "vertexCount": 1254,
+      "indexCount": 6690,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2422",
+      "conceptId": "FMA9466",
+      "name": "Cavity of left ventricle",
+      "system": "cardiac",
+      "vertexCount": 749,
+      "indexCount": 4404,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2423",
+      "conceptId": "FMA9291",
+      "name": "Cavity of right ventricle",
+      "system": "cardiac",
+      "vertexCount": 817,
+      "indexCount": 4830,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2424",
+      "conceptId": "FMA11359",
+      "name": "Cavity of right atrium",
+      "system": "cardiac",
+      "vertexCount": 697,
+      "indexCount": 3858,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2425",
+      "conceptId": "FMA9465",
+      "name": "Cavity of left atrium",
+      "system": "cardiac",
+      "vertexCount": 547,
+      "indexCount": 2976,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2426",
+      "conceptId": "FMA7254",
+      "name": "Left posterior cusp of aortic valve",
+      "system": "cardiac",
+      "vertexCount": 522,
+      "indexCount": 2718,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2427",
+      "conceptId": "FMA7250",
+      "name": "Posterior cusp of pulmonary valve",
+      "system": "cardiac",
+      "vertexCount": 570,
+      "indexCount": 2976,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2429",
+      "conceptId": "FMA7264",
+      "name": "Lateral papillary muscle of left ventricle",
+      "system": "muscular",
+      "vertexCount": 455,
+      "indexCount": 2166,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2430",
+      "conceptId": "FMA7261",
+      "name": "Posterior papillary muscle of right ventricle",
+      "system": "muscular",
+      "vertexCount": 462,
+      "indexCount": 1962,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2431",
+      "conceptId": "FMA7252",
+      "name": "Right posterior cusp of aortic valve",
+      "system": "cardiac",
+      "vertexCount": 214,
+      "indexCount": 942,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2432",
+      "conceptId": "FMA7243",
+      "name": "Posterior leaflet of mitral valve",
+      "system": "cardiac",
+      "vertexCount": 1766,
+      "indexCount": 7206,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2433",
+      "conceptId": "FMA7239",
+      "name": "Posterior leaflet of tricuspid valve",
+      "system": "cardiac",
+      "vertexCount": 1374,
+      "indexCount": 7056,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2434",
+      "conceptId": "FMA7249",
+      "name": "Right anterior cusp of pulmonary valve",
+      "system": "cardiac",
+      "vertexCount": 756,
+      "indexCount": 4062,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2435",
+      "conceptId": "FMA7253",
+      "name": "Anterior cusp of aortic valve",
+      "system": "cardiac",
+      "vertexCount": 503,
+      "indexCount": 2736,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2436",
+      "conceptId": "FMA7240",
+      "name": "Septal leaflet of tricuspid valve",
+      "system": "cardiac",
+      "vertexCount": 1324,
+      "indexCount": 6432,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2437",
+      "conceptId": "FMA7262",
+      "name": "Septal papillary muscle of right ventricle",
+      "system": "muscular",
+      "vertexCount": 510,
+      "indexCount": 2370,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2438",
+      "conceptId": "FMA9531",
+      "name": "Wall of left atrium",
+      "system": "cardiac",
+      "vertexCount": 2414,
+      "indexCount": 12270,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2439",
+      "conceptId": "FMA9457",
+      "name": "Wall of right atrium",
+      "system": "cardiac",
+      "vertexCount": 2545,
+      "indexCount": 11736,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2441",
+      "conceptId": "FMA68227",
+      "name": "Inferior lingular bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 273,
+      "indexCount": 1338,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2442",
+      "conceptId": "FMA68230",
+      "name": "Left medial basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 208,
+      "indexCount": 1026,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2443",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 248,
+      "indexCount": 1218,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2444",
+      "conceptId": "FMA68223",
+      "name": "Left apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 216,
+      "indexCount": 1086,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2445",
+      "conceptId": "FMA68232",
+      "name": "Left lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 164,
+      "indexCount": 834,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2446",
+      "conceptId": "FMA68233",
+      "name": "Left posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 152,
+      "indexCount": 762,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2447",
+      "conceptId": "FMA68225",
+      "name": "Left posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 166,
+      "indexCount": 798,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2448",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 248,
+      "indexCount": 1212,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2449",
+      "conceptId": "FMA68215",
+      "name": "Lateral segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 214,
+      "indexCount": 1068,
+      "chunk": 8
+    },
+    {
+      "id": "FJ2451",
+      "conceptId": "FMA68214",
+      "name": "Medial segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 244,
+      "indexCount": 1266,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2452",
+      "conceptId": "FMA68321",
+      "name": "Right anterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 213,
+      "indexCount": 1086,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2453",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 197,
+      "indexCount": 990,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2454",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 188,
+      "indexCount": 972,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2455",
+      "conceptId": "FMA68220",
+      "name": "Right lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 188,
+      "indexCount": 894,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2456",
+      "conceptId": "FMA68218",
+      "name": "Right medial basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 99,
+      "indexCount": 420,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2457",
+      "conceptId": "FMA68221",
+      "name": "Right posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 178,
+      "indexCount": 870,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2458",
+      "conceptId": "FMA68213",
+      "name": "Right posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 272,
+      "indexCount": 1422,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2459",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 162,
+      "indexCount": 714,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2460",
+      "conceptId": "FMA68223",
+      "name": "Left apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 139,
+      "indexCount": 594,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2461",
+      "conceptId": "FMA68223",
+      "name": "Left apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 95,
+      "indexCount": 384,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2462",
+      "conceptId": "FMA68223",
+      "name": "Left apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 105,
+      "indexCount": 372,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2463",
+      "conceptId": "FMA68223",
+      "name": "Left apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 97,
+      "indexCount": 342,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2464",
+      "conceptId": "FMA68223",
+      "name": "Left apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 70,
+      "indexCount": 192,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2465",
+      "conceptId": "FMA68225",
+      "name": "Left posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 78,
+      "indexCount": 258,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2466",
+      "conceptId": "FMA68225",
+      "name": "Left posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 68,
+      "indexCount": 192,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2467",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 212,
+      "indexCount": 1008,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2468",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 150,
+      "indexCount": 564,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2469",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 87,
+      "indexCount": 246,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2470",
+      "conceptId": "FMA68221",
+      "name": "Right posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 191,
+      "indexCount": 936,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2471",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 81,
+      "indexCount": 318,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2472",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 100,
+      "indexCount": 342,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2473",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 116,
+      "indexCount": 348,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2474",
+      "conceptId": "FMA68222",
+      "name": "Left anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 113,
+      "indexCount": 378,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2475",
+      "conceptId": "FMA68227",
+      "name": "Inferior lingular bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 125,
+      "indexCount": 594,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2476",
+      "conceptId": "FMA68226",
+      "name": "Superior lingular bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 107,
+      "indexCount": 402,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2477",
+      "conceptId": "FMA68226",
+      "name": "Superior lingular bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 87,
+      "indexCount": 210,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2478",
+      "conceptId": "FMA68226",
+      "name": "Superior lingular bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 87,
+      "indexCount": 264,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2479",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 123,
+      "indexCount": 570,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2480",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 93,
+      "indexCount": 318,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2481",
+      "conceptId": "FMA68221",
+      "name": "Right posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 201,
+      "indexCount": 648,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2482",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 83,
+      "indexCount": 294,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2483",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 82,
+      "indexCount": 270,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2484",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 93,
+      "indexCount": 360,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2485",
+      "conceptId": "FMA68228",
+      "name": "Left superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 74,
+      "indexCount": 174,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2486",
+      "conceptId": "FMA68221",
+      "name": "Right posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 140,
+      "indexCount": 612,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2487",
+      "conceptId": "FMA68221",
+      "name": "Right posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 280,
+      "indexCount": 1278,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2488",
+      "conceptId": "FMA68218",
+      "name": "Right medial basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 141,
+      "indexCount": 480,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2489",
+      "conceptId": "FMA68221",
+      "name": "Right posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 223,
+      "indexCount": 1032,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2490",
+      "conceptId": "FMA68220",
+      "name": "Right lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 220,
+      "indexCount": 1002,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2491",
+      "conceptId": "FMA68220",
+      "name": "Right lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 224,
+      "indexCount": 948,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2492",
+      "conceptId": "FMA68220",
+      "name": "Right lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 186,
+      "indexCount": 702,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2493",
+      "conceptId": "FMA68321",
+      "name": "Right anterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 237,
+      "indexCount": 942,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2494",
+      "conceptId": "FMA68321",
+      "name": "Right anterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 174,
+      "indexCount": 738,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2495",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 295,
+      "indexCount": 1350,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2496",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 355,
+      "indexCount": 1812,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2497",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 191,
+      "indexCount": 768,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2498",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 305,
+      "indexCount": 1524,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2499",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 240,
+      "indexCount": 1164,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2500",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 165,
+      "indexCount": 750,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2501",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 257,
+      "indexCount": 1278,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2502",
+      "conceptId": "FMA68216",
+      "name": "Right superior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 200,
+      "indexCount": 870,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2503",
+      "conceptId": "FMA68215",
+      "name": "Lateral segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 250,
+      "indexCount": 960,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2504",
+      "conceptId": "FMA68215",
+      "name": "Lateral segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 404,
+      "indexCount": 1620,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2505",
+      "conceptId": "FMA68215",
+      "name": "Lateral segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 291,
+      "indexCount": 1194,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2506",
+      "conceptId": "FMA68214",
+      "name": "Medial segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 327,
+      "indexCount": 1638,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2507",
+      "conceptId": "FMA68214",
+      "name": "Medial segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 311,
+      "indexCount": 1422,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2508",
+      "conceptId": "FMA68214",
+      "name": "Medial segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 195,
+      "indexCount": 768,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2509",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 328,
+      "indexCount": 1548,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2510",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 248,
+      "indexCount": 1158,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2511",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 176,
+      "indexCount": 750,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2512",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 195,
+      "indexCount": 864,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2513",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 296,
+      "indexCount": 1482,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2514",
+      "conceptId": "FMA68212",
+      "name": "Right anterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 270,
+      "indexCount": 1266,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2515",
+      "conceptId": "FMA68213",
+      "name": "Right posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 351,
+      "indexCount": 1452,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2516",
+      "conceptId": "FMA68213",
+      "name": "Right posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 268,
+      "indexCount": 1128,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2517",
+      "conceptId": "FMA68213",
+      "name": "Right posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 174,
+      "indexCount": 792,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2518",
+      "conceptId": "FMA68213",
+      "name": "Right posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 135,
+      "indexCount": 576,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2519",
+      "conceptId": "FMA68213",
+      "name": "Right posterior segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 136,
+      "indexCount": 570,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2520",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 262,
+      "indexCount": 1224,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2521",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 209,
+      "indexCount": 984,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2522",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 208,
+      "indexCount": 876,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2523",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 135,
+      "indexCount": 576,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2524",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 178,
+      "indexCount": 744,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2525",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 121,
+      "indexCount": 492,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2526",
+      "conceptId": "FMA68211",
+      "name": "Right apical segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 118,
+      "indexCount": 468,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2527",
+      "conceptId": "FMA68233",
+      "name": "Left posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 121,
+      "indexCount": 546,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2528",
+      "conceptId": "FMA68233",
+      "name": "Left posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 147,
+      "indexCount": 684,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2529",
+      "conceptId": "FMA68233",
+      "name": "Left posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 109,
+      "indexCount": 318,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2530",
+      "conceptId": "FMA68233",
+      "name": "Left posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 81,
+      "indexCount": 300,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2531",
+      "conceptId": "FMA68233",
+      "name": "Left posterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 78,
+      "indexCount": 174,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2532",
+      "conceptId": "FMA68232",
+      "name": "Left lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 131,
+      "indexCount": 648,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2533",
+      "conceptId": "FMA68232",
+      "name": "Left lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 122,
+      "indexCount": 408,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2534",
+      "conceptId": "FMA68232",
+      "name": "Left lateral basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 67,
+      "indexCount": 192,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2535",
+      "conceptId": "FMA68231",
+      "name": "Left anterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 167,
+      "indexCount": 780,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2536",
+      "conceptId": "FMA68231",
+      "name": "Left anterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 170,
+      "indexCount": 804,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2537",
+      "conceptId": "FMA68230",
+      "name": "Left medial basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 74,
+      "indexCount": 264,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2538",
+      "conceptId": "FMA68231",
+      "name": "Left anterior basal segmental bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 100,
+      "indexCount": 366,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2540",
+      "conceptId": "FMA68226",
+      "name": "Superior lingular bronchial tree",
+      "system": "respiratory",
+      "vertexCount": 213,
+      "indexCount": 1014,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2564",
+      "conceptId": "FMA7148",
+      "name": "Stomach",
+      "system": "digestive",
+      "vertexCount": 852,
+      "indexCount": 5058,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2566",
+      "conceptId": "FMA14545",
+      "name": "Ascending colon",
+      "system": "digestive",
+      "vertexCount": 1176,
+      "indexCount": 6336,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2567",
+      "conceptId": "FMA14547",
+      "name": "Descending colon",
+      "system": "digestive",
+      "vertexCount": 1572,
+      "indexCount": 8532,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2568",
+      "conceptId": "FMA15044",
+      "name": "Taenia libera",
+      "system": "digestive",
+      "vertexCount": 7258,
+      "indexCount": 14922,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2569",
+      "conceptId": "FMA15042",
+      "name": "Taenia mesocolica",
+      "system": "digestive",
+      "vertexCount": 8142,
+      "indexCount": 15780,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2570",
+      "conceptId": "FMA15043",
+      "name": "Taenia omentalis",
+      "system": "digestive",
+      "vertexCount": 4521,
+      "indexCount": 10506,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2571",
+      "conceptId": "FMA14544",
+      "name": "Rectum",
+      "system": "digestive",
+      "vertexCount": 823,
+      "indexCount": 4614,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2572",
+      "conceptId": "FMA14546",
+      "name": "Transverse colon",
+      "system": "digestive",
+      "vertexCount": 1350,
+      "indexCount": 7248,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2573",
+      "conceptId": "FMA7206",
+      "name": "Duodenum",
+      "system": "digestive",
+      "vertexCount": 883,
+      "indexCount": 5034,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2574",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 196,
+      "indexCount": 1134,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2575",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 144,
+      "indexCount": 828,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2576",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 94,
+      "indexCount": 516,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2577",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 173,
+      "indexCount": 936,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2578",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 158,
+      "indexCount": 858,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2579",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 149,
+      "indexCount": 834,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2580",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 176,
+      "indexCount": 1032,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2581",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 118,
+      "indexCount": 594,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2582",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 114,
+      "indexCount": 636,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2583",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 101,
+      "indexCount": 588,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2584",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 116,
+      "indexCount": 684,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2585",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 157,
+      "indexCount": 858,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2586",
+      "conceptId": "FMA14965",
+      "name": "Middle part of ileum",
+      "system": "digestive",
+      "vertexCount": 141,
+      "indexCount": 780,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2587",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 117,
+      "indexCount": 684,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2588",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 141,
+      "indexCount": 792,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2589",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 168,
+      "indexCount": 978,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2590",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 97,
+      "indexCount": 552,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2591",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 118,
+      "indexCount": 678,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2592",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 129,
+      "indexCount": 708,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2593",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 134,
+      "indexCount": 786,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2594",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 113,
+      "indexCount": 660,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2595",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 139,
+      "indexCount": 774,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2596",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 135,
+      "indexCount": 678,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2597",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 106,
+      "indexCount": 606,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2598",
+      "conceptId": "FMA14966",
+      "name": "Distal part of ileum",
+      "system": "digestive",
+      "vertexCount": 129,
+      "indexCount": 738,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2599",
+      "conceptId": "FMA11338",
+      "name": "Ileocecal junction",
+      "system": "digestive",
+      "vertexCount": 155,
+      "indexCount": 858,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2600",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 136,
+      "indexCount": 768,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2601",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 125,
+      "indexCount": 624,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2602",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 137,
+      "indexCount": 798,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2603",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 154,
+      "indexCount": 882,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2604",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 114,
+      "indexCount": 594,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2605",
+      "conceptId": "FMA14964",
+      "name": "Proximal part of ileum",
+      "system": "digestive",
+      "vertexCount": 175,
+      "indexCount": 984,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2606",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 201,
+      "indexCount": 924,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2607",
+      "conceptId": "FMA16982",
+      "name": "Middle part of jejunum",
+      "system": "digestive",
+      "vertexCount": 127,
+      "indexCount": 720,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2608",
+      "conceptId": "FMA16982",
+      "name": "Middle part of jejunum",
+      "system": "digestive",
+      "vertexCount": 133,
+      "indexCount": 786,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2609",
+      "conceptId": "FMA16982",
+      "name": "Middle part of jejunum",
+      "system": "digestive",
+      "vertexCount": 98,
+      "indexCount": 576,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2610",
+      "conceptId": "FMA16982",
+      "name": "Middle part of jejunum",
+      "system": "digestive",
+      "vertexCount": 155,
+      "indexCount": 882,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2611",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 123,
+      "indexCount": 678,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2612",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 130,
+      "indexCount": 720,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2613",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 91,
+      "indexCount": 528,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2614",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 119,
+      "indexCount": 690,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2615",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 147,
+      "indexCount": 792,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2616",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 227,
+      "indexCount": 1296,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2617",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 135,
+      "indexCount": 702,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2618",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 117,
+      "indexCount": 666,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2619",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 141,
+      "indexCount": 774,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2620",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 154,
+      "indexCount": 852,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2621",
+      "conceptId": "FMA16983",
+      "name": "Distal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 275,
+      "indexCount": 1482,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2622",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 99,
+      "indexCount": 480,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2623",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 202,
+      "indexCount": 1134,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2624",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 94,
+      "indexCount": 516,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2625",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 79,
+      "indexCount": 456,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2626",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 188,
+      "indexCount": 990,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2627",
+      "conceptId": "FMA16981",
+      "name": "Proximal part of jejunum",
+      "system": "digestive",
+      "vertexCount": 99,
+      "indexCount": 570,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2628",
+      "conceptId": "FMA16982",
+      "name": "Middle part of jejunum",
+      "system": "digestive",
+      "vertexCount": 128,
+      "indexCount": 708,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2631",
+      "conceptId": "FMA74912",
+      "name": "Trunk of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 356,
+      "indexCount": 1998,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2632",
+      "conceptId": "FMA3872",
+      "name": "First right anterior branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 91,
+      "indexCount": 324,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2633",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 283,
+      "indexCount": 1272,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2634",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 156,
+      "indexCount": 576,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2635",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 363,
+      "indexCount": 1578,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2636",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 275,
+      "indexCount": 1224,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2637",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 142,
+      "indexCount": 474,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2638",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 242,
+      "indexCount": 858,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2639",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 122,
+      "indexCount": 450,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2640",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 214,
+      "indexCount": 762,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2641",
+      "conceptId": "FMA3876",
+      "name": "Third right anterior branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 305,
+      "indexCount": 1224,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2642",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 326,
+      "indexCount": 1740,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2643",
+      "conceptId": "FMA3868",
+      "name": "Conus branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 234,
+      "indexCount": 1242,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2644",
+      "conceptId": "FMA3868",
+      "name": "Conus branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 191,
+      "indexCount": 906,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2645",
+      "conceptId": "FMA3872",
+      "name": "First right anterior branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 222,
+      "indexCount": 942,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2646",
+      "conceptId": "FMA3874",
+      "name": "Second right anterior branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 275,
+      "indexCount": 1338,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2647",
+      "conceptId": "FMA3876",
+      "name": "Third right anterior branch of anterior interventricular branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 214,
+      "indexCount": 906,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2648",
+      "conceptId": "FMA3860",
+      "name": "Diagonal branch of anterior descending branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 203,
+      "indexCount": 858,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2649",
+      "conceptId": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 325,
+      "indexCount": 1938,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2650",
+      "conceptId": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 304,
+      "indexCount": 1122,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2651",
+      "conceptId": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 358,
+      "indexCount": 1344,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2652",
+      "conceptId": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 234,
+      "indexCount": 894,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2653",
+      "conceptId": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 229,
+      "indexCount": 744,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2654",
+      "conceptId": "FMA3895",
+      "name": "Circumflex branch of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 147,
+      "indexCount": 498,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2655",
+      "conceptId": "FMA4706",
+      "name": "Coronary sinus",
+      "system": "venous",
+      "vertexCount": 319,
+      "indexCount": 1806,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2656",
+      "conceptId": "FMA4707",
+      "name": "Great cardiac vein",
+      "system": "venous",
+      "vertexCount": 322,
+      "indexCount": 1824,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2667",
+      "conceptId": "FMA3818",
+      "name": "Marginal branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 254,
+      "indexCount": 1002,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2668",
+      "conceptId": "FMA3818",
+      "name": "Marginal branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 176,
+      "indexCount": 648,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2670",
+      "conceptId": "FMA3807",
+      "name": "Right conus artery",
+      "system": "arterial",
+      "vertexCount": 272,
+      "indexCount": 1278,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2671",
+      "conceptId": "FMA3815",
+      "name": "First anterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 292,
+      "indexCount": 1326,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2672",
+      "conceptId": "FMA3818",
+      "name": "Marginal branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 348,
+      "indexCount": 1674,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2673",
+      "conceptId": "FMA3815",
+      "name": "First anterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 233,
+      "indexCount": 954,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2674",
+      "conceptId": "FMA3818",
+      "name": "Marginal branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 186,
+      "indexCount": 852,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2675",
+      "conceptId": "FMA3818",
+      "name": "Marginal branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 148,
+      "indexCount": 600,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2676",
+      "conceptId": "FMA3807",
+      "name": "Right conus artery",
+      "system": "arterial",
+      "vertexCount": 227,
+      "indexCount": 876,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2677",
+      "conceptId": "FMA3815",
+      "name": "First anterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 194,
+      "indexCount": 744,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2692",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 339,
+      "indexCount": 1398,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2693",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 278,
+      "indexCount": 1224,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2694",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 287,
+      "indexCount": 1176,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2695",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 163,
+      "indexCount": 708,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2696",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 265,
+      "indexCount": 912,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2697",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 187,
+      "indexCount": 654,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2698",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 193,
+      "indexCount": 594,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2699",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 126,
+      "indexCount": 378,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2700",
+      "conceptId": "FMA3840",
+      "name": "Posterior interventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 197,
+      "indexCount": 840,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2714",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 307,
+      "indexCount": 1464,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2715",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 185,
+      "indexCount": 654,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2716",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 188,
+      "indexCount": 696,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2717",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 255,
+      "indexCount": 996,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2718",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 139,
+      "indexCount": 558,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2719",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 297,
+      "indexCount": 1128,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2720",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 231,
+      "indexCount": 954,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2721",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 197,
+      "indexCount": 762,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2722",
+      "conceptId": "FMA3837",
+      "name": "First posterior ventricular branch of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 236,
+      "indexCount": 924,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2723",
+      "conceptId": "FMA3802",
+      "name": "Trunk of right coronary artery",
+      "system": "arterial",
+      "vertexCount": 498,
+      "indexCount": 2970,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2724",
+      "conceptId": "FMA4714",
+      "name": "Small cardiac vein",
+      "system": "venous",
+      "vertexCount": 210,
+      "indexCount": 1206,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2727",
+      "conceptId": "FMA4716",
+      "name": "Right marginal vein",
+      "system": "venous",
+      "vertexCount": 380,
+      "indexCount": 1554,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2728",
+      "conceptId": "FMA4716",
+      "name": "Right marginal vein",
+      "system": "venous",
+      "vertexCount": 186,
+      "indexCount": 822,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2729",
+      "conceptId": "FMA4716",
+      "name": "Right marginal vein",
+      "system": "venous",
+      "vertexCount": 153,
+      "indexCount": 648,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2731",
+      "conceptId": "FMA4714",
+      "name": "Small cardiac vein",
+      "system": "venous",
+      "vertexCount": 383,
+      "indexCount": 2250,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2737",
+      "conceptId": "FMA3855",
+      "name": "Trunk of left coronary artery",
+      "system": "arterial",
+      "vertexCount": 121,
+      "indexCount": 612,
+      "chunk": 9
+    },
+    {
+      "id": "FJ2816",
+      "conceptId": "FMA13365",
+      "name": "Caudate lobe of liver",
+      "system": "digestive",
+      "vertexCount": 600,
+      "indexCount": 3528,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2818",
+      "conceptId": "FMA15739",
+      "name": "Hepatovenous segment II",
+      "system": "venous",
+      "vertexCount": 1757,
+      "indexCount": 9450,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2819",
+      "conceptId": "FMA15741",
+      "name": "Hepatovenous segment III",
+      "system": "venous",
+      "vertexCount": 1312,
+      "indexCount": 6810,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2820",
+      "conceptId": "FMA15742",
+      "name": "Hepatovenous segment IV",
+      "system": "venous",
+      "vertexCount": 3872,
+      "indexCount": 11838,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2821",
+      "conceptId": "FMA15743",
+      "name": "Hepatovenous segment V",
+      "system": "venous",
+      "vertexCount": 1809,
+      "indexCount": 7548,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2822",
+      "conceptId": "FMA15744",
+      "name": "Hepatovenous segment VI",
+      "system": "venous",
+      "vertexCount": 2263,
+      "indexCount": 12834,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2823",
+      "conceptId": "FMA15746",
+      "name": "Hepatovenous segment VIII",
+      "system": "venous",
+      "vertexCount": 2454,
+      "indexCount": 12642,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2824",
+      "conceptId": "FMA15746",
+      "name": "Hepatovenous segment VIII",
+      "system": "venous",
+      "vertexCount": 2793,
+      "indexCount": 14250,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2881",
+      "conceptId": "FMA8647",
+      "name": "Left posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 194,
+      "indexCount": 1152,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2882",
+      "conceptId": "FMA8646",
+      "name": "Left lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 64,
+      "indexCount": 174,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2883",
+      "conceptId": "FMA8645",
+      "name": "Left anterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 312,
+      "indexCount": 1584,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2884",
+      "conceptId": "FMA8644",
+      "name": "Left medial basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 208,
+      "indexCount": 990,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2885",
+      "conceptId": "FMA8644",
+      "name": "Left medial basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 197,
+      "indexCount": 960,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2886",
+      "conceptId": "FMA8645",
+      "name": "Left anterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 94,
+      "indexCount": 366,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2887",
+      "conceptId": "FMA8645",
+      "name": "Left anterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 87,
+      "indexCount": 306,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2888",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 310,
+      "indexCount": 1656,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2889",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 85,
+      "indexCount": 282,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2890",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 89,
+      "indexCount": 330,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2891",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 193,
+      "indexCount": 1068,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2892",
+      "conceptId": "FMA8647",
+      "name": "Left posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 110,
+      "indexCount": 420,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2893",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 85,
+      "indexCount": 366,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2894",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 222,
+      "indexCount": 1140,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2895",
+      "conceptId": "FMA8642",
+      "name": "Left superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 93,
+      "indexCount": 390,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2896",
+      "conceptId": "FMA8640",
+      "name": "Inferior lingular artery",
+      "system": "arterial",
+      "vertexCount": 267,
+      "indexCount": 1392,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2897",
+      "conceptId": "FMA8640",
+      "name": "Inferior lingular artery",
+      "system": "arterial",
+      "vertexCount": 231,
+      "indexCount": 1044,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2898",
+      "conceptId": "FMA8639",
+      "name": "Superior lingular artery",
+      "system": "arterial",
+      "vertexCount": 276,
+      "indexCount": 1380,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2899",
+      "conceptId": "FMA8639",
+      "name": "Superior lingular artery",
+      "system": "arterial",
+      "vertexCount": 85,
+      "indexCount": 252,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2900",
+      "conceptId": "FMA8639",
+      "name": "Superior lingular artery",
+      "system": "arterial",
+      "vertexCount": 132,
+      "indexCount": 624,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2901",
+      "conceptId": "FMA8639",
+      "name": "Superior lingular artery",
+      "system": "arterial",
+      "vertexCount": 105,
+      "indexCount": 600,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2902",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 310,
+      "indexCount": 1578,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2903",
+      "conceptId": "FMA8647",
+      "name": "Left posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 213,
+      "indexCount": 1080,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2904",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 127,
+      "indexCount": 630,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2905",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 146,
+      "indexCount": 834,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2906",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 217,
+      "indexCount": 1146,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2907",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 131,
+      "indexCount": 450,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2908",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 307,
+      "indexCount": 1632,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2909",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 101,
+      "indexCount": 360,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2910",
+      "conceptId": "FMA13279",
+      "name": "Left anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 133,
+      "indexCount": 570,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2911",
+      "conceptId": "FMA8635",
+      "name": "Left posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 173,
+      "indexCount": 894,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2912",
+      "conceptId": "FMA8635",
+      "name": "Left posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 117,
+      "indexCount": 444,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2913",
+      "conceptId": "FMA8635",
+      "name": "Left posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 122,
+      "indexCount": 576,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2914",
+      "conceptId": "FMA8647",
+      "name": "Left posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 78,
+      "indexCount": 270,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2915",
+      "conceptId": "FMA8634",
+      "name": "Left apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 189,
+      "indexCount": 1068,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2916",
+      "conceptId": "FMA8634",
+      "name": "Left apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 119,
+      "indexCount": 510,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2917",
+      "conceptId": "FMA8634",
+      "name": "Left apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 132,
+      "indexCount": 582,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2918",
+      "conceptId": "FMA8634",
+      "name": "Left apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 122,
+      "indexCount": 558,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2919",
+      "conceptId": "FMA8647",
+      "name": "Left posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 238,
+      "indexCount": 1200,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2920",
+      "conceptId": "FMA8647",
+      "name": "Left posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 140,
+      "indexCount": 648,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2921",
+      "conceptId": "FMA8646",
+      "name": "Left lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 191,
+      "indexCount": 1128,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2922",
+      "conceptId": "FMA8646",
+      "name": "Left lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 141,
+      "indexCount": 618,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2923",
+      "conceptId": "FMA8646",
+      "name": "Left lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 143,
+      "indexCount": 660,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2926",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 131,
+      "indexCount": 672,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2927",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 170,
+      "indexCount": 948,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2928",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 196,
+      "indexCount": 912,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2929",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 97,
+      "indexCount": 444,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2930",
+      "conceptId": "FMA8667",
+      "name": "Left anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 193,
+      "indexCount": 1134,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2931",
+      "conceptId": "FMA8667",
+      "name": "Left anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 140,
+      "indexCount": 672,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2932",
+      "conceptId": "FMA8667",
+      "name": "Left anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 87,
+      "indexCount": 378,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2934",
+      "conceptId": "FMA8669",
+      "name": "Inferior lingular vein",
+      "system": "venous",
+      "vertexCount": 147,
+      "indexCount": 756,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2935",
+      "conceptId": "FMA8669",
+      "name": "Inferior lingular vein",
+      "system": "venous",
+      "vertexCount": 114,
+      "indexCount": 402,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2936",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 106,
+      "indexCount": 612,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2937",
+      "conceptId": "FMA8668",
+      "name": "Superior lingular vein",
+      "system": "venous",
+      "vertexCount": 168,
+      "indexCount": 948,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2938",
+      "conceptId": "FMA8668",
+      "name": "Superior lingular vein",
+      "system": "venous",
+      "vertexCount": 119,
+      "indexCount": 510,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2939",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 261,
+      "indexCount": 1386,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2940",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 90,
+      "indexCount": 336,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2941",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 106,
+      "indexCount": 570,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2942",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 105,
+      "indexCount": 504,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2943",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 108,
+      "indexCount": 522,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2945",
+      "conceptId": "FMA9451",
+      "name": "Left posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 169,
+      "indexCount": 894,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2946",
+      "conceptId": "FMA9451",
+      "name": "Left posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 114,
+      "indexCount": 582,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2947",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 90,
+      "indexCount": 522,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2948",
+      "conceptId": "FMA9451",
+      "name": "Left posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 82,
+      "indexCount": 306,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2949",
+      "conceptId": "FMA9451",
+      "name": "Left posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 115,
+      "indexCount": 546,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2951",
+      "conceptId": "FMA9450",
+      "name": "Left lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 143,
+      "indexCount": 792,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2952",
+      "conceptId": "FMA9450",
+      "name": "Left lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 81,
+      "indexCount": 426,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2953",
+      "conceptId": "FMA9450",
+      "name": "Left lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 106,
+      "indexCount": 474,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2954",
+      "conceptId": "FMA9450",
+      "name": "Left lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 90,
+      "indexCount": 324,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2956",
+      "conceptId": "FMA8678",
+      "name": "Left anterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 125,
+      "indexCount": 672,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2957",
+      "conceptId": "FMA8678",
+      "name": "Left anterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 92,
+      "indexCount": 402,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2958",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 176,
+      "indexCount": 882,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2959",
+      "conceptId": "FMA8678",
+      "name": "Left anterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 204,
+      "indexCount": 1122,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2960",
+      "conceptId": "FMA8678",
+      "name": "Left anterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 94,
+      "indexCount": 450,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2961",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 103,
+      "indexCount": 564,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2962",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 116,
+      "indexCount": 594,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2963",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 75,
+      "indexCount": 336,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2964",
+      "conceptId": "FMA9437",
+      "name": "Left apical segmental vein",
+      "system": "venous",
+      "vertexCount": 104,
+      "indexCount": 522,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2965",
+      "conceptId": "FMA9438",
+      "name": "Left posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 100,
+      "indexCount": 426,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2967",
+      "conceptId": "FMA68662",
+      "name": "Apical part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 210,
+      "indexCount": 960,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2968",
+      "conceptId": "FMA68670",
+      "name": "Apical part of right posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 88,
+      "indexCount": 270,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2969",
+      "conceptId": "FMA68670",
+      "name": "Apical part of right posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 100,
+      "indexCount": 360,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2970",
+      "conceptId": "FMA68673",
+      "name": "Posterior part of right posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 254,
+      "indexCount": 1314,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2971",
+      "conceptId": "FMA68673",
+      "name": "Posterior part of right posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 114,
+      "indexCount": 372,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2972",
+      "conceptId": "FMA68673",
+      "name": "Posterior part of right posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 145,
+      "indexCount": 588,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2973",
+      "conceptId": "FMA68197",
+      "name": "Right upper lobar artery",
+      "system": "arterial",
+      "vertexCount": 280,
+      "indexCount": 1200,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2974",
+      "conceptId": "FMA68677",
+      "name": "Posterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 158,
+      "indexCount": 864,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2975",
+      "conceptId": "FMA68683",
+      "name": "Anterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 148,
+      "indexCount": 648,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2976",
+      "conceptId": "FMA68683",
+      "name": "Anterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 87,
+      "indexCount": 288,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2977",
+      "conceptId": "FMA68683",
+      "name": "Anterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 115,
+      "indexCount": 480,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2978",
+      "conceptId": "FMA68665",
+      "name": "Anterior part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 138,
+      "indexCount": 600,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2979",
+      "conceptId": "FMA68683",
+      "name": "Anterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 106,
+      "indexCount": 372,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2980",
+      "conceptId": "FMA68677",
+      "name": "Posterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 90,
+      "indexCount": 330,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2981",
+      "conceptId": "FMA68677",
+      "name": "Posterior branch of right anterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 208,
+      "indexCount": 954,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2982",
+      "conceptId": "FMA68691",
+      "name": "Anterior branch of lateral segmental artery",
+      "system": "arterial",
+      "vertexCount": 196,
+      "indexCount": 924,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2983",
+      "conceptId": "FMA68690",
+      "name": "Posterior branch of lateral segmental artery",
+      "system": "arterial",
+      "vertexCount": 119,
+      "indexCount": 546,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2984",
+      "conceptId": "FMA68690",
+      "name": "Posterior branch of lateral segmental artery",
+      "system": "arterial",
+      "vertexCount": 67,
+      "indexCount": 198,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2985",
+      "conceptId": "FMA68691",
+      "name": "Anterior branch of lateral segmental artery",
+      "system": "arterial",
+      "vertexCount": 79,
+      "indexCount": 222,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2986",
+      "conceptId": "FMA68693",
+      "name": "Superior branch of medial segmental artery",
+      "system": "arterial",
+      "vertexCount": 71,
+      "indexCount": 192,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2987",
+      "conceptId": "FMA68694",
+      "name": "Inferior branch of medial segmental artery",
+      "system": "arterial",
+      "vertexCount": 85,
+      "indexCount": 300,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2988",
+      "conceptId": "FMA68694",
+      "name": "Inferior branch of medial segmental artery",
+      "system": "arterial",
+      "vertexCount": 124,
+      "indexCount": 510,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2989",
+      "conceptId": "FMA68665",
+      "name": "Anterior part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 267,
+      "indexCount": 1290,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2990",
+      "conceptId": "FMA68693",
+      "name": "Superior branch of medial segmental artery",
+      "system": "arterial",
+      "vertexCount": 235,
+      "indexCount": 1344,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2991",
+      "conceptId": "FMA68712",
+      "name": "Lateral branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 184,
+      "indexCount": 906,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2992",
+      "conceptId": "FMA68712",
+      "name": "Lateral branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 140,
+      "indexCount": 498,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2993",
+      "conceptId": "FMA68712",
+      "name": "Lateral branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 57,
+      "indexCount": 156,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2994",
+      "conceptId": "FMA68706",
+      "name": "Medial branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 161,
+      "indexCount": 678,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2995",
+      "conceptId": "FMA68706",
+      "name": "Medial branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 260,
+      "indexCount": 1266,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2996",
+      "conceptId": "FMA68706",
+      "name": "Medial branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 184,
+      "indexCount": 798,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2997",
+      "conceptId": "FMA68709",
+      "name": "Superior branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 169,
+      "indexCount": 834,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2998",
+      "conceptId": "FMA68709",
+      "name": "Superior branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 161,
+      "indexCount": 690,
+      "chunk": 11
+    },
+    {
+      "id": "FJ2999",
+      "conceptId": "FMA68709",
+      "name": "Superior branch of right superior segmental artery",
+      "system": "arterial",
+      "vertexCount": 303,
+      "indexCount": 1404,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3000",
+      "conceptId": "FMA68665",
+      "name": "Anterior part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 129,
+      "indexCount": 576,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3001",
+      "conceptId": "FMA68725",
+      "name": "Lateral branch of right anterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 224,
+      "indexCount": 1146,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3002",
+      "conceptId": "FMA68723",
+      "name": "Basal branch of right anterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 101,
+      "indexCount": 390,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3003",
+      "conceptId": "FMA68723",
+      "name": "Basal branch of right anterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 199,
+      "indexCount": 762,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3004",
+      "conceptId": "FMA68728",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 111,
+      "indexCount": 570,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3005",
+      "conceptId": "FMA68728",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 172,
+      "indexCount": 882,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3006",
+      "conceptId": "FMA68728",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 182,
+      "indexCount": 1080,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3007",
+      "conceptId": "FMA68728",
+      "name": "Lateral branch of right lateral basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 190,
+      "indexCount": 762,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3008",
+      "conceptId": "FMA68741",
+      "name": "Mediobasal branch of right posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 157,
+      "indexCount": 756,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3009",
+      "conceptId": "FMA68735",
+      "name": "Accessory subsuperior branch of right posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 110,
+      "indexCount": 414,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3010",
+      "conceptId": "FMA68735",
+      "name": "Accessory subsuperior branch of right posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 75,
+      "indexCount": 204,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3011",
+      "conceptId": "FMA68665",
+      "name": "Anterior part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 118,
+      "indexCount": 456,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3012",
+      "conceptId": "FMA68741",
+      "name": "Mediobasal branch of right posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 71,
+      "indexCount": 210,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3013",
+      "conceptId": "FMA68738",
+      "name": "Laterobasal branch of right posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 246,
+      "indexCount": 1224,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3014",
+      "conceptId": "FMA68738",
+      "name": "Laterobasal branch of right posterior basal segmental artery",
+      "system": "arterial",
+      "vertexCount": 209,
+      "indexCount": 1008,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3015",
+      "conceptId": "FMA68662",
+      "name": "Apical part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 100,
+      "indexCount": 330,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3016",
+      "conceptId": "FMA68662",
+      "name": "Apical part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 228,
+      "indexCount": 972,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3017",
+      "conceptId": "FMA68662",
+      "name": "Apical part of right apical segmental artery",
+      "system": "arterial",
+      "vertexCount": 142,
+      "indexCount": 606,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3018",
+      "conceptId": "FMA68670",
+      "name": "Apical part of right posterior segmental artery",
+      "system": "arterial",
+      "vertexCount": 437,
+      "indexCount": 2412,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3021",
+      "conceptId": "FMA68928",
+      "name": "Inferior part of right anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 157,
+      "indexCount": 756,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3022",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 135,
+      "indexCount": 654,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3023",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 108,
+      "indexCount": 498,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3024",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 77,
+      "indexCount": 330,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3025",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 100,
+      "indexCount": 492,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3026",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 106,
+      "indexCount": 564,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3027",
+      "conceptId": "FMA68926",
+      "name": "Superior part of right anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 171,
+      "indexCount": 894,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3028",
+      "conceptId": "FMA8662",
+      "name": "Right anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 107,
+      "indexCount": 582,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3029",
+      "conceptId": "FMA8662",
+      "name": "Right anterior segmental vein",
+      "system": "venous",
+      "vertexCount": 86,
+      "indexCount": 372,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3030",
+      "conceptId": "FMA68982",
+      "name": "Superior part of medial segmental vein",
+      "system": "venous",
+      "vertexCount": 228,
+      "indexCount": 1260,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3031",
+      "conceptId": "FMA68880",
+      "name": "Trunk of right apical segmental vein",
+      "system": "venous",
+      "vertexCount": 139,
+      "indexCount": 792,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3032",
+      "conceptId": "FMA68983",
+      "name": "Inferior part of medial segmental vein",
+      "system": "venous",
+      "vertexCount": 239,
+      "indexCount": 1344,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3033",
+      "conceptId": "FMA68983",
+      "name": "Inferior part of medial segmental vein",
+      "system": "venous",
+      "vertexCount": 71,
+      "indexCount": 300,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3034",
+      "conceptId": "FMA68945",
+      "name": "Anterior part of lateral segmental vein",
+      "system": "venous",
+      "vertexCount": 193,
+      "indexCount": 1146,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3035",
+      "conceptId": "FMA68945",
+      "name": "Anterior part of lateral segmental vein",
+      "system": "venous",
+      "vertexCount": 106,
+      "indexCount": 612,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3036",
+      "conceptId": "FMA68945",
+      "name": "Anterior part of lateral segmental vein",
+      "system": "venous",
+      "vertexCount": 158,
+      "indexCount": 906,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3037",
+      "conceptId": "FMA68944",
+      "name": "Posterior part of lateral segmental vein",
+      "system": "venous",
+      "vertexCount": 171,
+      "indexCount": 1002,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3038",
+      "conceptId": "FMA68944",
+      "name": "Posterior part of lateral segmental vein",
+      "system": "venous",
+      "vertexCount": 127,
+      "indexCount": 696,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3039",
+      "conceptId": "FMA68944",
+      "name": "Posterior part of lateral segmental vein",
+      "system": "venous",
+      "vertexCount": 114,
+      "indexCount": 618,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3041",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 155,
+      "indexCount": 906,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3042",
+      "conceptId": "FMA68921",
+      "name": "Anterior part of right apical segmental vein",
+      "system": "venous",
+      "vertexCount": 134,
+      "indexCount": 564,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3043",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 145,
+      "indexCount": 702,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3044",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 95,
+      "indexCount": 360,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3045",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 126,
+      "indexCount": 612,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3046",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 118,
+      "indexCount": 516,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3047",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 127,
+      "indexCount": 654,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3048",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 101,
+      "indexCount": 510,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3049",
+      "conceptId": "FMA8673",
+      "name": "Right anterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 162,
+      "indexCount": 912,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3050",
+      "conceptId": "FMA8670",
+      "name": "Right superior segmental vein",
+      "system": "venous",
+      "vertexCount": 179,
+      "indexCount": 1026,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3051",
+      "conceptId": "FMA8670",
+      "name": "Right superior segmental vein",
+      "system": "venous",
+      "vertexCount": 190,
+      "indexCount": 924,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3052",
+      "conceptId": "FMA8670",
+      "name": "Right superior segmental vein",
+      "system": "venous",
+      "vertexCount": 67,
+      "indexCount": 300,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3053",
+      "conceptId": "FMA68921",
+      "name": "Anterior part of right apical segmental vein",
+      "system": "venous",
+      "vertexCount": 103,
+      "indexCount": 534,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3054",
+      "conceptId": "FMA9422",
+      "name": "Right medial basal segmental vein",
+      "system": "venous",
+      "vertexCount": 143,
+      "indexCount": 618,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3055",
+      "conceptId": "FMA9422",
+      "name": "Right medial basal segmental vein",
+      "system": "venous",
+      "vertexCount": 73,
+      "indexCount": 240,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3056",
+      "conceptId": "FMA8673",
+      "name": "Right anterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 129,
+      "indexCount": 750,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3057",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 89,
+      "indexCount": 366,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3058",
+      "conceptId": "FMA9428",
+      "name": "Right posterior basal segmental vein",
+      "system": "venous",
+      "vertexCount": 98,
+      "indexCount": 510,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3059",
+      "conceptId": "FMA9425",
+      "name": "Right lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 144,
+      "indexCount": 774,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3060",
+      "conceptId": "FMA9425",
+      "name": "Right lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 88,
+      "indexCount": 450,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3061",
+      "conceptId": "FMA9425",
+      "name": "Right lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 85,
+      "indexCount": 456,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3062",
+      "conceptId": "FMA9425",
+      "name": "Right lateral basal segmental vein",
+      "system": "venous",
+      "vertexCount": 106,
+      "indexCount": 570,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3063",
+      "conceptId": "FMA8670",
+      "name": "Right superior segmental vein",
+      "system": "venous",
+      "vertexCount": 97,
+      "indexCount": 402,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3064",
+      "conceptId": "FMA8681",
+      "name": "Apical part of right apical segmental vein",
+      "system": "venous",
+      "vertexCount": 130,
+      "indexCount": 678,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3065",
+      "conceptId": "FMA8670",
+      "name": "Right superior segmental vein",
+      "system": "venous",
+      "vertexCount": 95,
+      "indexCount": 438,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3066",
+      "conceptId": "FMA8670",
+      "name": "Right superior segmental vein",
+      "system": "venous",
+      "vertexCount": 99,
+      "indexCount": 402,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3067",
+      "conceptId": "FMA8681",
+      "name": "Apical part of right apical segmental vein",
+      "system": "venous",
+      "vertexCount": 107,
+      "indexCount": 612,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3068",
+      "conceptId": "FMA8681",
+      "name": "Apical part of right apical segmental vein",
+      "system": "venous",
+      "vertexCount": 81,
+      "indexCount": 306,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3069",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 185,
+      "indexCount": 1068,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3070",
+      "conceptId": "FMA8663",
+      "name": "Right posterior segmental vein",
+      "system": "venous",
+      "vertexCount": 125,
+      "indexCount": 648,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3071",
+      "conceptId": "FMA71867",
+      "name": "Anterior superior tributary of right hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 279,
+      "indexCount": 1398,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3072",
+      "conceptId": "FMA71868",
+      "name": "Anterior inferior tributary of right hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 739,
+      "indexCount": 2538,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3073",
+      "conceptId": "FMA15420",
+      "name": "Anterior superior segmental branch of right portal vein",
+      "system": "venous",
+      "vertexCount": 262,
+      "indexCount": 1476,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3074",
+      "conceptId": "FMA15421",
+      "name": "Anterior inferior segmental branch of right portal vein",
+      "system": "venous",
+      "vertexCount": 509,
+      "indexCount": 2400,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3075",
+      "conceptId": "FMA70443",
+      "name": "Anterior inferior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 726,
+      "indexCount": 2442,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3076",
+      "conceptId": "FMA70442",
+      "name": "Anterior superior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 247,
+      "indexCount": 1428,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3077",
+      "conceptId": "FMA70455",
+      "name": "Caudate lobe branch of left hepatic artery",
+      "system": "arterial",
+      "vertexCount": 204,
+      "indexCount": 1032,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3081",
+      "conceptId": "FMA14772",
+      "name": "Hepatic artery proper",
+      "system": "arterial",
+      "vertexCount": 176,
+      "indexCount": 1044,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3083",
+      "conceptId": "FMA15800",
+      "name": "Anterior inferior segmental tributary of middle hepatic vein",
+      "system": "venous",
+      "vertexCount": 311,
+      "indexCount": 1848,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3086",
+      "conceptId": "FMA15800",
+      "name": "Anterior inferior segmental tributary of middle hepatic vein",
+      "system": "venous",
+      "vertexCount": 150,
+      "indexCount": 864,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3088",
+      "conceptId": "FMA71887",
+      "name": "Lateral superior tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 251,
+      "indexCount": 1224,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3089",
+      "conceptId": "FMA71888",
+      "name": "Lateral inferior tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 364,
+      "indexCount": 1560,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3090",
+      "conceptId": "FMA71887",
+      "name": "Lateral superior tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 318,
+      "indexCount": 1386,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3091",
+      "conceptId": "FMA70452",
+      "name": "Lateral superior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 219,
+      "indexCount": 1110,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3092",
+      "conceptId": "FMA70453",
+      "name": "Lateral inferior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 273,
+      "indexCount": 1326,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3093",
+      "conceptId": "FMA70452",
+      "name": "Lateral superior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 291,
+      "indexCount": 1104,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3095",
+      "conceptId": "FMA70457",
+      "name": "Trunk of left hepatic artery",
+      "system": "arterial",
+      "vertexCount": 351,
+      "indexCount": 2094,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3096",
+      "conceptId": "FMA14670",
+      "name": "Left hepatic duct",
+      "system": "digestive",
+      "vertexCount": 372,
+      "indexCount": 2208,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3102",
+      "conceptId": "FMA82697",
+      "name": "Trunk of left portal vein",
+      "system": "venous",
+      "vertexCount": 354,
+      "indexCount": 2112,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3103",
+      "conceptId": "FMA71886",
+      "name": "Medial inferior tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 369,
+      "indexCount": 1776,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3104",
+      "conceptId": "FMA71885",
+      "name": "Medial superior tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 301,
+      "indexCount": 1464,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3105",
+      "conceptId": "FMA71885",
+      "name": "Medial superior tributary of left hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 354,
+      "indexCount": 1398,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3106",
+      "conceptId": "FMA70450",
+      "name": "Medial inferior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 356,
+      "indexCount": 1866,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3107",
+      "conceptId": "FMA70449",
+      "name": "Medial superior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 444,
+      "indexCount": 1590,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3108",
+      "conceptId": "FMA71870",
+      "name": "Posterior inferior tributary of right hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 369,
+      "indexCount": 1854,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3109",
+      "conceptId": "FMA71869",
+      "name": "Posterior superior tributary of right hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 211,
+      "indexCount": 882,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3110",
+      "conceptId": "FMA71869",
+      "name": "Posterior superior tributary of right hepatic biliary tree",
+      "system": "digestive",
+      "vertexCount": 460,
+      "indexCount": 1488,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3111",
+      "conceptId": "FMA15424",
+      "name": "Posterior inferior segmental branch of right portal vein",
+      "system": "venous",
+      "vertexCount": 326,
+      "indexCount": 1938,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3112",
+      "conceptId": "FMA15423",
+      "name": "Posterior superior segmental branch of right portal vein",
+      "system": "venous",
+      "vertexCount": 165,
+      "indexCount": 966,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3113",
+      "conceptId": "FMA15423",
+      "name": "Posterior superior segmental branch of right portal vein",
+      "system": "venous",
+      "vertexCount": 383,
+      "indexCount": 1500,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3114",
+      "conceptId": "FMA70446",
+      "name": "Posterior inferior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 343,
+      "indexCount": 1560,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3115",
+      "conceptId": "FMA70445",
+      "name": "Posterior superior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 403,
+      "indexCount": 1566,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3116",
+      "conceptId": "FMA70445",
+      "name": "Posterior superior segmental hepatic artery",
+      "system": "arterial",
+      "vertexCount": 406,
+      "indexCount": 1326,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3117",
+      "conceptId": "FMA70456",
+      "name": "Trunk of right hepatic artery",
+      "system": "arterial",
+      "vertexCount": 223,
+      "indexCount": 1326,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3122",
+      "conceptId": "FMA82695",
+      "name": "Trunk of right portal vein",
+      "system": "venous",
+      "vertexCount": 105,
+      "indexCount": 618,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3123",
+      "conceptId": "FMA14669",
+      "name": "Right hepatic duct",
+      "system": "digestive",
+      "vertexCount": 115,
+      "indexCount": 678,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3124",
+      "conceptId": "FMA15425",
+      "name": "Caudate lobe branch of left portal vein",
+      "system": "venous",
+      "vertexCount": 259,
+      "indexCount": 1152,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3125",
+      "conceptId": "FMA15432",
+      "name": "Lateral inferior segmental branch of left portal vein",
+      "system": "venous",
+      "vertexCount": 439,
+      "indexCount": 2550,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3126",
+      "conceptId": "FMA15431",
+      "name": "Lateral superior segmental branch of left portal vein",
+      "system": "venous",
+      "vertexCount": 386,
+      "indexCount": 2148,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3127",
+      "conceptId": "FMA15428",
+      "name": "Medial superior segmental branch of left portal vein",
+      "system": "venous",
+      "vertexCount": 549,
+      "indexCount": 2850,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3128",
+      "conceptId": "FMA15429",
+      "name": "Medial inferior segmental branch of left portal vein",
+      "system": "venous",
+      "vertexCount": 428,
+      "indexCount": 2532,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3131",
+      "conceptId": "FMA13295",
+      "name": "Diaphragm",
+      "system": "muscular",
+      "vertexCount": 8469,
+      "indexCount": 45222,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3145",
+      "conceptId": "FMA7205",
+      "name": "Left kidney",
+      "system": "urinary",
+      "vertexCount": 762,
+      "indexCount": 4536,
+      "chunk": 11
+    },
+    {
+      "id": "FJ3147",
+      "conceptId": "FMA7204",
+      "name": "Right kidney",
+      "system": "urinary",
+      "vertexCount": 747,
+      "indexCount": 4440,
+      "chunk": 11
+    }
+  ]
+}

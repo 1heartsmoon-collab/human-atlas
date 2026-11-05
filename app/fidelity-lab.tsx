@@ -1,0 +1,46 @@
+import {useEffect,useMemo,useRef,useState} from 'react';
+import {Button} from '@/components/ui/button';
+import AnatomyScene from './scene';
+import {type Atlas,type SceneState,type View} from './anatomy';
+import {diagnose,downloadFile,ORGAN_SYSTEMS,type LabScene} from './fidelity-data';
+const scenes:LabScene[]=['FACE','VISCERA','MATERIAL A/B','DEEP TRUNK'];
+type Capture={url:string;blob:Blob;metadata:unknown;name:string};
+export default function FidelityLab({atlas,onExit}:{atlas:Atlas;onExit:()=>void}){
+ const diagnostics=useMemo(()=>diagnose(atlas),[atlas]);
+ const defaults=useMemo(()=>{
+  const base:SceneState={explode:0,visible:[],selected:[],isolate:false,view:'front',rotate:false,reset:0};
+  const face=[...new Set(diagnostics.face.flatMap(r=>r.meshIds))],deep=diagnostics.deep.flatMap(r=>r.meshIds),muscle=diagnostics.deep[0].meshIds;
+  const organs=atlas.parts.filter(p=>ORGAN_SYSTEMS.includes(p.system)).map(p=>p.id);
+  return {'FACE':{...base,lab:{ids:[...face,...diagnostics.skull],focus:[...face,...diagnostics.skull],materialTest:false,lockCamera:false}},'VISCERA':{...base,lab:{ids:organs,focus:organs,materialTest:false,lockCamera:false}},'DEEP TRUNK':{...base,view:'back' as View,lab:{ids:deep,focus:deep,materialTest:false,lockCamera:false,colorGroups:true}},'MATERIAL A/B':{...base,view:'back' as View,lab:{ids:muscle,focus:muscle,materialTest:false,lockCamera:true}}} as Record<LabScene,SceneState>;
+ },[atlas,diagnostics]);
+ const [scene,setScene]=useState<LabScene>('FACE'),[saved,setSaved]=useState(defaults),[progress,setProgress]=useState(0),[error,setError]=useState(''),[captures,setCaptures]=useState<Capture[]>([]);
+ const host=useRef<HTMLDivElement>(null),urls=useRef<string[]>([]),current=useRef(scene);current.current=scene;
+ const state=saved[scene],rows=scene==='FACE'?diagnostics.face:scene==='VISCERA'?diagnostics.viscera:diagnostics.deep;
+ const update=(change:Partial<SceneState>)=>setSaved(prev=>({...prev,[scene]:{...prev[scene],...change}}));
+ const lab=state.lab!;
+ const activeIds=state.isolate?state.selected:lab.ids;
+ const changeLab=(change:Partial<typeof lab>)=>update({lab:{...lab,...change}});
+ useEffect(()=>{const el=host.current!;const handler=(event:Event)=>{const detail=(event as CustomEvent).detail;const url=URL.createObjectURL(detail.blob);urls.current.push(url);setCaptures(old=>[...old,{url,blob:detail.blob,metadata:detail.metadata,name:`${current.current}-${detail.metadata.state.lab.materialTest?'TEST':'BASELINE'}`}]);};el.addEventListener('lab-captured',handler);return()=>{el.removeEventListener('lab-captured',handler);urls.current.forEach(URL.revokeObjectURL);};},[]);
+ const select=(ids:string[])=>update({selected:ids,isolate:false});
+ return <main className="fidelity-lab font-sans" ref={host}>
+  <header className="lab-header"><div><p>KHRONOS ANATOMY ATLAS / W1</p><h1>Reality / Fidelity Lab</h1><p>実形状の比較 · 設計審査用 · 未公開</p></div><Button variant="outline" onClick={onExit}>全身へ戻る</Button></header>
+  <nav className="lab-tabs" aria-label="比較シーン">{scenes.map(name=><Button key={name} variant={scene===name?'default':'outline'} aria-pressed={scene===name} onClick={()=>setScene(name)}>{name}</Button>)}</nav>
+  <div className="lab-workspace">
+   <section className="lab-viewport" aria-label={`${scene} 3D preview`}><AnatomyScene atlas={atlas} state={{...state,lab:{...lab,key:scene}}} onSelect={id=>select([id])} onProgress={setProgress} onError={setError}/><div className="lab-canvas-label">{scene} · {scene==='MATERIAL A/B'?(lab.materialTest?'MATERIAL TEST':'BASELINE'):`${activeIds.length} 描画対象mesh`}<br/>{progress===100?'全15 chunkロード済み':`Loading ${progress}%`}</div>{error&&<p className="lab-error" role="alert">{error}</p>}</section>
+   <aside className="lab-inspector" aria-label="実データと表示設定">
+    <h2>{scene==='FACE'?'顔面・頭部の収録状況':scene==='VISCERA'?'遮蔽層を除いた内臓':scene==='DEEP TRUNK'?'深部体幹の比較':'同一形状・同一視点'}</h2>
+    <p>{scene==='FACE'?'表情筋・咀嚼筋の候補を実名照合。眼球運動筋を顔面表情筋の代替とは扱いません。':scene==='VISCERA'?'外皮・骨格・表層筋はOFF。肺概念は主に気管支・血管の集合で、全肺の外形meshを確認できません。肝臓も尾状葉・胆管・血管などの部分集合です。系統parts数や概念の存在は完全な臓器形状を保証しません。':scene==='DEEP TRUNK'?'胸腰筋膜三層：3D形状未収録／将来の専門追加対象。近接は付着・連続・張力の証拠ではありません。':'筋線維や筋膜の追加なし。既存の頂点・法線をそのまま使用し、筋材質の反射だけを変更します。'}</p>
+    <div className="lab-actions">{(['front','three-quarter','side','back'] as View[]).map(v=><Button key={v} size="sm" variant={state.view===v?'default':'outline'} onClick={()=>update({view:v,reset:state.reset+1})}>{v}</Button>)}</div>
+    {scene==='FACE'&&<Button variant="outline" aria-pressed={diagnostics.skull.some(id=>lab.ids.includes(id))} onClick={()=>{const on=diagnostics.skull.some(id=>lab.ids.includes(id));update({isolate:false,lab:{...lab,ids:on?lab.ids.filter(id=>!diagnostics.skull.includes(id)):[...lab.ids,...diagnostics.skull]}});}}>頭蓋骨 {diagnostics.skull.some(id=>lab.ids.includes(id))?'ON':'OFF'}</Button>}
+    {scene==='VISCERA'&&<div className="lab-actions">{ORGAN_SYSTEMS.map(sys=>{const ids=atlas.parts.filter(p=>p.system===sys).map(p=>p.id),on=ids.every(id=>lab.ids.includes(id));return <Button key={sys} size="sm" variant={on?'default':'outline'} aria-pressed={on} onClick={()=>update({selected:[],isolate:false,lab:{...lab,ids:on?lab.ids.filter(id=>!ids.includes(id)):[...new Set([...lab.ids,...ids])]}})}>{sys} · {diagnostics.systemParts[sys]}</Button>;})}</div>}
+    {scene==='MATERIAL A/B'&&<><div className="lab-actions"><Button variant={!lab.materialTest?'default':'outline'} aria-pressed={!lab.materialTest} onClick={()=>changeLab({materialTest:false})}>BASELINE</Button><Button variant={lab.materialTest?'default':'outline'} aria-pressed={lab.materialTest} onClick={()=>changeLab({materialTest:true})}>MATERIAL TEST</Button></div><p>roughness {lab.materialTest?'0.82':'0.53'} / metalness {lab.materialTest?'0':'0.08'} / environment {lab.materialTest?'0.45':'1.0'}<br/>光源・色・露出1.12・カメラを保持。改善の優劣は未承認。</p><Button variant="outline" aria-pressed={lab.lockCamera} onClick={()=>changeLab({lockCamera:!lab.lockCamera})}>カメラ {lab.lockCamera?'固定':'操作可能'}</Button></>}
+    {scene==='DEEP TRUNK'&&<p>識別色：後鋸筋＝元の筋色、大腰筋＝青系、横隔膜＝黄褐色。選択時は共通の緑系ハイライト。</p>}
+    <div className="lab-actions"><Button disabled={!state.selected.length||progress<100} variant="outline" onClick={()=>update({isolate:!state.isolate})}>{state.isolate?'周囲を復帰':'選択をIsolate'}</Button><Button variant="outline" onClick={()=>setSaved(prev=>({...prev,[scene]:{...defaults[scene],reset:state.reset+1}}))}>シーンをリセット</Button></div>
+    <p className="lab-status" role="status">選択 FJ：{state.selected.join(', ')||'なし'}<br/>収録 ≠ 描画確認。遮蔽は視点依存で、現在は自動判定しません。</p>
+    <div className="lab-rows">{rows.map((row,i)=>{const enabled=row.meshIds.filter(id=>activeIds.includes(id));return <article key={`${row.conceptId}-${i}`}><Button variant={row.meshIds.length&&row.meshIds.every(id=>state.selected.includes(id))?'secondary':'ghost'} disabled={!row.meshIds.length||progress<100} onClick={()=>{if(scene==='MATERIAL A/B')update({selected:[],isolate:false,lab:{...lab,ids:row.meshIds,focus:row.meshIds}});else select(row.meshIds);}}>{row.name}</Button>{scene==='DEEP TRUNK'&&<Button size="sm" variant="outline" aria-label={`比較に追加 ${row.name}`} aria-pressed={row.meshIds.every(id=>state.selected.includes(id))} onClick={()=>update({selected:row.meshIds.every(id=>state.selected.includes(id))?state.selected.filter(id=>!row.meshIds.includes(id)):[...new Set([...state.selected,...row.meshIds])]})}>比較 ±</Button>}<p>{row.group} · {row.conceptId??'概念なし'}</p><p>{row.status==='NOT_FOUND_IN_FIXED_MANIFEST'?'NOT_FOUND_IN_FIXED_MANIFEST':row.status==='MESH_MISSING'?'MESH_MISSING（meshなし）':enabled.length===0?'HIDDEN_BUT_PRESENT（表示セット外）':progress<100?'PRESENT_BUT_NOT_RENDERED（ロード中）':`描画対象 ${enabled.length}/${row.meshIds.length} · 遮蔽/医学精度 UNVERIFIED`}</p><details><summary>実mesh ID ({row.meshIds.length})</summary><p>{row.meshIds.map(id=>`${id}: ${atlas.parts.find(p=>p.id===id)?.name}`).join(' / ')||'該当なし'}</p></details></article>;})}</div>
+   </aside>
+  </div>
+  <section className="lab-evidence"><div className="lab-actions"><Button disabled={progress<100||!!error} onClick={()=>host.current?.querySelector('.scene')?.dispatchEvent(new Event('lab-capture'))}>現在の3D比較画像を保存</Button><Button variant="outline" onClick={()=>downloadFile(new Blob([JSON.stringify(diagnostics,null,2)],{type:'application/json'}),'W1_RUNTIME_DIAGNOSTICS.json')}>対象mesh JSON</Button></div><p>画像はこのセッション内で比較できます。PNGとカメラ条件JSONをダウンロードして保存してください。永続ストレージは使用しません。</p><div className="lab-captures">{captures.map((c,i)=><figure key={c.url}><img src={c.url} alt={`${c.name} 実3Dキャプチャ ${i+1}`}/><figcaption>{c.name}</figcaption><div className="lab-actions"><Button variant="outline" size="sm" onClick={()=>downloadFile(c.blob,`W1-${i}-${c.name.replaceAll('/','-')}.png`)}>PNG</Button><Button variant="outline" size="sm" onClick={()=>downloadFile(new Blob([JSON.stringify(c.metadata,null,2)],{type:'application/json'}),`W1-${i}-camera.json`)}>カメラ条件</Button></div></figure>)}</div></section>
+  <footer className="lab-footer">BodyParts3D © The Database Center for Life Science · <a href="https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html" target="_blank" rel="noreferrer">CC BY 4.0 / Source license</a><br/>固定版 1c38bf3 · {diagnostics.counts.parts} meshes / {diagnostics.counts.concepts} concepts / {diagnostics.counts.chunks} chunks · G0/G4/G5 未承認</footer>
+ </main>;
+}
