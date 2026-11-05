@@ -35,6 +35,20 @@ FACE/VISCERA/A/Bの画像取得後、カメラ復元処理と説明文を追加�
 - 初回ロード完了待機はタイムアウトしたが、後続チェックで全15 chunkロード済みを確認。正確な総ロード時間・GPU FPS・実機性能は未測定。バッチ実装は維持され、部分表示でも全chunkをロードする。性能改善を実証したとは扱わない。
 - 型検査・ビルド・manifest回帰はPASS。これらは視覚・医学的検証の代替ではない。
 
+## 追加検証（Continue / 69a0b15）
+
+上記は初回の記録。以下を追加確認し、一部のBLOCKEDを解除した。アプリコードは変更していない。
+
+- 390×844 / light / Vite開発環境でFACE、VISCERA、MATERIAL A/B、DEEP TRUNKの4画面を表示し、実3D画像を各1枚保存。全15 chunkロード完了表示を確認。
+- 画像: `w1-followup-mobile-face.png`、`w1-followup-mobile-viscera.png`、`w1-followup-mobile-material.png`、`w1-followup-mobile-trunk.png`。別添 `W1-mobile-followup.zip` に収録。
+- DEEP TRUNKの390px表示でmainのscrollWidthがinnerWidthを超えないことを確認。タブ操作と4シーン描画はPASS。物理端末・タッチジェスチャーの試験ではない。
+- 1439×1176へ戻し「シーンをリセット」を実行。選択FJが「なし」であることを確認。ただし直前も未選択だったため、非初期状態からのカメラ/選択リセットを完全検証したとはしない。
+- 「全身へ戻る」で実際にHuman Atlas 3Dの見出しへ遷移することを確認。全身の全chunk再描画完了までは今回確認していない。
+- desktopへのリサイズ後、side操作でブラウザdaemonの `Resource temporarily unavailable (os error 11)` が発生。1回の診断で応答復帰し、上記リセット・復帰操作を確認。sideの実際の成功は不明のためPASSにしない。
+- エラー収集時点のクライアントエラー出力は空。初回の25秒ロード待機はタイムアウトしたが、後続画像とDOMでロード完了を確認。総ロード時間・GPU FPSは依然未測定。
+
+未検証: カメラ位置の完全復元、全身再ロード完了、全対象の個別選択、全ダウンロード、実機性能。モバイルの基本表示は確認済みだが、全操作回帰完了ではない。
+
 ## 審査状態
 
 4画面の試作は実装済み。完全な動作検証PASSではない。G0/G4/G5未承認。本番公開せず設計審査で停止。
